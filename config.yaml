@@ -1,0 +1,31 @@
+Mode: debug
+Port: ""
+Log:
+    LogPath: ""
+    CLS:
+        Endpoint: ""
+        AccessKey: ""
+        AccessToken: ""
+        TopicID: ""
+Postgres:
+    Addr: ""
+    Port: ""
+    User: ""
+    Password: ""
+    Database: ""
+    UseTLS: false
+    Debug: false
+Redis:
+    Addr: ""
+    Port: ""
+    Password: ""
+    Db: 0
+B2:
+    BucketKeyID: ""
+    BucketKey: ""
+    BucketName: ""
+SentryDsn: ""
+hduhelp:
+    ClientID: ""
+    ClientSecret: ""
+    OauthFinishPath: ""

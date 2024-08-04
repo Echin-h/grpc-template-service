@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"grpc-template-service/cmd"
+)
 
 func main() {
-	fmt.Println("Hello, World!")
+	cmd.Execute()
 }
