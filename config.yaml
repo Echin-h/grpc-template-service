@@ -1,7 +1,7 @@
 Mode: debug
-Port: ""
+Port: "8080"
 Log:
-    LogPath: ""
+    LogPath: "./latest.log"
     CLS:
         Endpoint: ""
         AccessKey: ""
