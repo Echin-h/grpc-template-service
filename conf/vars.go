@@ -2,6 +2,7 @@ package conf
 
 type GlobalConfig struct {
 	MODE string `yaml:"Mode"`
+	Host string `yaml:"Host"`
 	Port string `yaml:"Port"` // grpc和http服务监听端口
 	Log  struct {
 		LogPath string `yaml:"LogPath"`

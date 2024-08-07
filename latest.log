@@ -1,1 +1,25 @@
 2024-08-05T14:39:34.626+0800	INFO	test	logx/logger_test.go:16	test
+2024-08-07T19:01:25.362+0800	ERROR	module.pgsql	kernel/kernel.go:59	failed to connect to `host=port= user=dbname= database=`: hostname resolving error (lookup port=: no such host)
+grpc-template-service/core/kernel.(*Engine).StartModule
+	F:/grpc-template-service/core/kernel/kernel.go:59
+grpc-template-service/cmd/server.init.func1
+	F:/grpc-template-service/cmd/server/server.go:72
+github.com/spf13/cobra.(*Command).execute
+	C:/Users/何一川/go/pkg/mod/github.com/spf13/cobra@v1.8.1/command.go:989
+github.com/spf13/cobra.(*Command).ExecuteC
+	C:/Users/何一川/go/pkg/mod/github.com/spf13/cobra@v1.8.1/command.go:1117
+github.com/spf13/cobra.(*Command).Execute
+	C:/Users/何一川/go/pkg/mod/github.com/spf13/cobra@v1.8.1/command.go:1041
+grpc-template-service/cmd.Execute
+	F:/grpc-template-service/cmd/init.go:25
+main.main
+	F:/grpc-template-service/main.go:8
+runtime.main
+	C:/Users/何一川/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.22.3.windows-amd64/src/runtime/proc.go:271
+2024-08-07T19:04:59.574+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1]Server created	{"system": "grpc", "grpc_log": true}
+2024-08-07T19:05:41.645+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1]Server created	{"system": "grpc", "grpc_log": true}
+2024-08-07T19:08:03.774+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1]Server created	{"system": "grpc", "grpc_log": true}
+2024-08-07T19:11:48.308+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1]Server created	{"system": "grpc", "grpc_log": true}
+2024-08-07T19:13:50.860+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1]Server created	{"system": "grpc", "grpc_log": true}
+2024-08-07T19:14:45.922+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1]Server created	{"system": "grpc", "grpc_log": true}
+2024-08-07T19:24:04.082+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1]Server created	{"system": "grpc", "grpc_log": true}
