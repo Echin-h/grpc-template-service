@@ -23,3 +23,1150 @@ runtime.main
 2024-08-07T19:13:50.860+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1]Server created	{"system": "grpc", "grpc_log": true}
 2024-08-07T19:14:45.922+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1]Server created	{"system": "grpc", "grpc_log": true}
 2024-08-07T19:24:04.082+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1]Server created	{"system": "grpc", "grpc_log": true}
+2024-08-07T19:28:44.049+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1]Server created	{"system": "grpc", "grpc_log": true}
+2024-08-07T19:28:44.067+0800	INFO	module.grpcGateway	grpcGateway/mod.go:54	init gRPC server success...
+2024-08-07T19:28:44.067+0800	INFO	grpc	grpclog/component.go:36	[core]original dial target is: "127.0.0.1:8080"	{"system": "grpc", "grpc_log": true}
+2024-08-07T19:28:44.068+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel created	{"system": "grpc", "grpc_log": true}
+2024-08-07T19:28:44.068+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]parsed dial target is: resolver.Target{URL:url.URL{Scheme:"dns", Opaque:"", User:(*url.Userinfo)(nil), Host:"", Path:"/127.0.0.1:8080", RawPath:"", OmitHost:false, ForceQuery:false, RawQuery:"", Fragment:"", RawFragment:""}}	{"system": "grpc", "grpc_log": true}
+2024-08-07T19:28:44.068+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel authority set to "127.0.0.1:8080"	{"system": "grpc", "grpc_log": true}
+2024-08-07T19:28:44.068+0800	INFO	module.grpcGateway	grpcGateway/mod.go:117	init gRPC gateway success...
+2024-08-07T19:28:44.068+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1 ListenSocket #3]ListenSocket created	{"system": "grpc", "grpc_log": true}
+2024-08-07T20:18:04.127+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1 ListenSocket #3]ListenSocket deleted	{"system": "grpc", "grpc_log": true}
+2024-08-07T21:36:20.472+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1]Server created	{"system": "grpc", "grpc_log": true}
+2024-08-07T21:36:20.493+0800	INFO	module.grpcGateway	grpcGateway/mod.go:54	init gRPC server success...
+2024-08-07T21:36:20.494+0800	INFO	grpc	grpclog/component.go:36	[core]original dial target is: "127.0.0.1:8080"	{"system": "grpc", "grpc_log": true}
+2024-08-07T21:36:20.494+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel created	{"system": "grpc", "grpc_log": true}
+2024-08-07T21:36:20.495+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]parsed dial target is: resolver.Target{URL:url.URL{Scheme:"dns", Opaque:"", User:(*url.Userinfo)(nil), Host:"", Path:"/127.0.0.1:8080", RawPath:"", OmitHost:false, ForceQuery:false, RawQuery:"", Fragment:"", RawFragment:""}}	{"system": "grpc", "grpc_log": true}
+2024-08-07T21:36:20.495+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel authority set to "127.0.0.1:8080"	{"system": "grpc", "grpc_log": true}
+2024-08-07T21:36:20.496+0800	INFO	module.grpcGateway	grpcGateway/mod.go:117	init gRPC gateway success...
+2024-08-07T21:36:20.496+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1 ListenSocket #3]ListenSocket created	{"system": "grpc", "grpc_log": true}
+2024-08-07T21:36:24.861+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1 ListenSocket #3]ListenSocket deleted	{"system": "grpc", "grpc_log": true}
+2024-08-08T18:27:57.729+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1]Server created	{"system": "grpc", "grpc_log": true}
+2024-08-08T18:27:57.748+0800	INFO	module.grpcGateway	grpcGateway/mod.go:54	init gRPC server success...
+2024-08-08T18:27:57.749+0800	INFO	grpc	grpclog/component.go:36	[core]original dial target is: "127.0.0.1:8080"	{"system": "grpc", "grpc_log": true}
+2024-08-08T18:27:57.749+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel created	{"system": "grpc", "grpc_log": true}
+2024-08-08T18:27:57.749+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]parsed dial target is: resolver.Target{URL:url.URL{Scheme:"dns", Opaque:"", User:(*url.Userinfo)(nil), Host:"", Path:"/127.0.0.1:8080", RawPath:"", OmitHost:false, ForceQuery:false, RawQuery:"", Fragment:"", RawFragment:""}}	{"system": "grpc", "grpc_log": true}
+2024-08-08T18:27:57.749+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel authority set to "127.0.0.1:8080"	{"system": "grpc", "grpc_log": true}
+2024-08-08T18:27:57.749+0800	INFO	module.grpcGateway	grpcGateway/mod.go:118	init gRPC gateway success...
+2024-08-08T18:27:57.749+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1 ListenSocket #3]ListenSocket created	{"system": "grpc", "grpc_log": true}
+2024-08-08T18:32:43.051+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1 ListenSocket #3]ListenSocket deleted	{"system": "grpc", "grpc_log": true}
+2024-08-08T18:32:43.051+0800	INFO	module.ginx	ginx/mod.go:88	failed to start to listen and serve	{"error": "mux: server closed"}
+2024-08-08T18:32:43.051+0800	ERROR	module.ginx	kernel/kernel.go:96	mux: server closed
+grpc-template-service/core/kernel.(*Engine).StartModule.func1
+	F:/grpc-template-service/core/kernel/kernel.go:96
+2024-08-08T18:32:47.618+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1]Server created	{"system": "grpc", "grpc_log": true}
+2024-08-08T18:32:47.639+0800	INFO	module.grpcGateway	grpcGateway/mod.go:54	init gRPC server success...
+2024-08-08T18:32:47.639+0800	INFO	grpc	grpclog/component.go:36	[core]original dial target is: "127.0.0.1:8080"	{"system": "grpc", "grpc_log": true}
+2024-08-08T18:32:47.639+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel created	{"system": "grpc", "grpc_log": true}
+2024-08-08T18:32:47.639+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]parsed dial target is: resolver.Target{URL:url.URL{Scheme:"dns", Opaque:"", User:(*url.Userinfo)(nil), Host:"", Path:"/127.0.0.1:8080", RawPath:"", OmitHost:false, ForceQuery:false, RawQuery:"", Fragment:"", RawFragment:""}}	{"system": "grpc", "grpc_log": true}
+2024-08-08T18:32:47.639+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel authority set to "127.0.0.1:8080"	{"system": "grpc", "grpc_log": true}
+2024-08-08T18:32:47.640+0800	INFO	module.grpcGateway	grpcGateway/mod.go:118	init gRPC gateway success...
+2024-08-08T18:32:47.640+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1 ListenSocket #3]ListenSocket created	{"system": "grpc", "grpc_log": true}
+2024-08-08T18:33:10.842+0800	ERROR	grpc	runtime/errors.go:127	Failed to extract ServerMetadata from context	{"system": "grpc", "grpc_log": true}
+github.com/grpc-ecosystem/grpc-gateway/v2/runtime.DefaultHTTPErrorHandler
+	C:/Users/何一川/go/pkg/mod/github.com/grpc-ecosystem/grpc-gateway/v2@v2.21.0/runtime/errors.go:127
+github.com/grpc-ecosystem/grpc-gateway/v2/runtime.DefaultRoutingErrorHandler
+	C:/Users/何一川/go/pkg/mod/github.com/grpc-ecosystem/grpc-gateway/v2@v2.21.0/runtime/errors.go:180
+github.com/grpc-ecosystem/grpc-gateway/v2/runtime.(*ServeMux).ServeHTTP
+	C:/Users/何一川/go/pkg/mod/github.com/grpc-ecosystem/grpc-gateway/v2@v2.21.0/runtime/mux.go:489
+grpc-template-service/internal/mod/grpcGateway.(*Mod).PostInit.func2
+	F:/grpc-template-service/internal/mod/grpcGateway/mod.go:110
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	C:/Users/何一川/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.22.0.windows-amd64/src/net/http/server.go:3137
+net/http.(*conn).serve
+	C:/Users/何一川/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.22.0.windows-amd64/src/net/http/server.go:2039
+2024-08-08T18:33:25.389+0800	ERROR	grpc	runtime/errors.go:127	Failed to extract ServerMetadata from context	{"system": "grpc", "grpc_log": true}
+github.com/grpc-ecosystem/grpc-gateway/v2/runtime.DefaultHTTPErrorHandler
+	C:/Users/何一川/go/pkg/mod/github.com/grpc-ecosystem/grpc-gateway/v2@v2.21.0/runtime/errors.go:127
+github.com/grpc-ecosystem/grpc-gateway/v2/runtime.DefaultRoutingErrorHandler
+	C:/Users/何一川/go/pkg/mod/github.com/grpc-ecosystem/grpc-gateway/v2@v2.21.0/runtime/errors.go:180
+github.com/grpc-ecosystem/grpc-gateway/v2/runtime.(*ServeMux).ServeHTTP
+	C:/Users/何一川/go/pkg/mod/github.com/grpc-ecosystem/grpc-gateway/v2@v2.21.0/runtime/mux.go:489
+grpc-template-service/internal/mod/grpcGateway.(*Mod).PostInit.func2
+	F:/grpc-template-service/internal/mod/grpcGateway/mod.go:110
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	C:/Users/何一川/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.22.0.windows-amd64/src/net/http/server.go:3137
+net/http.(*conn).serve
+	C:/Users/何一川/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.22.0.windows-amd64/src/net/http/server.go:2039
+2024-08-08T18:40:56.464+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1 ListenSocket #3]ListenSocket deleted	{"system": "grpc", "grpc_log": true}
+2024-08-08T18:40:56.464+0800	INFO	module.ginx	ginx/mod.go:88	failed to start to listen and serve	{"error": "mux: server closed"}
+2024-08-08T18:40:56.464+0800	ERROR	module.ginx	kernel/kernel.go:96	mux: server closed
+grpc-template-service/core/kernel.(*Engine).StartModule.func1
+	F:/grpc-template-service/core/kernel/kernel.go:96
+2024-08-08T18:41:03.893+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1]Server created	{"system": "grpc", "grpc_log": true}
+2024-08-08T18:41:03.933+0800	INFO	module.grpcGateway	grpcGateway/mod.go:56	init gRPC server success...
+2024-08-08T18:41:03.934+0800	INFO	grpc	grpclog/component.go:36	[core]original dial target is: "127.0.0.1:8080"	{"system": "grpc", "grpc_log": true}
+2024-08-08T18:41:03.934+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel created	{"system": "grpc", "grpc_log": true}
+2024-08-08T18:41:03.934+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]parsed dial target is: resolver.Target{URL:url.URL{Scheme:"dns", Opaque:"", User:(*url.Userinfo)(nil), Host:"", Path:"/127.0.0.1:8080", RawPath:"", OmitHost:false, ForceQuery:false, RawQuery:"", Fragment:"", RawFragment:""}}	{"system": "grpc", "grpc_log": true}
+2024-08-08T18:41:03.934+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel authority set to "127.0.0.1:8080"	{"system": "grpc", "grpc_log": true}
+2024-08-08T18:41:03.934+0800	INFO	module.grpcGateway	grpcGateway/mod.go:122	init gRPC gateway success...
+2024-08-08T18:41:03.934+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1 ListenSocket #3]ListenSocket created	{"system": "grpc", "grpc_log": true}
+2024-08-08T18:41:27.882+0800	ERROR	grpc	runtime/errors.go:127	Failed to extract ServerMetadata from context	{"system": "grpc", "grpc_log": true}
+github.com/grpc-ecosystem/grpc-gateway/v2/runtime.DefaultHTTPErrorHandler
+	C:/Users/何一川/go/pkg/mod/github.com/grpc-ecosystem/grpc-gateway/v2@v2.21.0/runtime/errors.go:127
+github.com/grpc-ecosystem/grpc-gateway/v2/runtime.DefaultRoutingErrorHandler
+	C:/Users/何一川/go/pkg/mod/github.com/grpc-ecosystem/grpc-gateway/v2@v2.21.0/runtime/errors.go:180
+github.com/grpc-ecosystem/grpc-gateway/v2/runtime.(*ServeMux).ServeHTTP
+	C:/Users/何一川/go/pkg/mod/github.com/grpc-ecosystem/grpc-gateway/v2@v2.21.0/runtime/mux.go:489
+grpc-template-service/internal/mod/grpcGateway.(*Mod).PostInit.func2
+	F:/grpc-template-service/internal/mod/grpcGateway/mod.go:113
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	C:/Users/何一川/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.22.0.windows-amd64/src/net/http/server.go:3137
+net/http.(*conn).serve
+	C:/Users/何一川/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.22.0.windows-amd64/src/net/http/server.go:2039
+2024-08-08T18:42:06.687+0800	INFO	module.ginx	ginx/mod.go:88	failed to start to listen and serve	{"error": "mux: server closed"}
+2024-08-08T18:42:06.687+0800	ERROR	module.ginx	kernel/kernel.go:96	mux: server closed
+grpc-template-service/core/kernel.(*Engine).StartModule.func1
+	F:/grpc-template-service/core/kernel/kernel.go:96
+2024-08-08T18:42:32.832+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1]Server created	{"system": "grpc", "grpc_log": true}
+2024-08-08T18:42:33.687+0800	INFO	module.grpcGateway	grpcGateway/mod.go:56	init gRPC server success...
+2024-08-08T18:42:33.688+0800	INFO	grpc	grpclog/component.go:36	[core]original dial target is: "127.0.0.1:8080"	{"system": "grpc", "grpc_log": true}
+2024-08-08T18:42:33.688+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel created	{"system": "grpc", "grpc_log": true}
+2024-08-08T18:42:33.688+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]parsed dial target is: resolver.Target{URL:url.URL{Scheme:"dns", Opaque:"", User:(*url.Userinfo)(nil), Host:"", Path:"/127.0.0.1:8080", RawPath:"", OmitHost:false, ForceQuery:false, RawQuery:"", Fragment:"", RawFragment:""}}	{"system": "grpc", "grpc_log": true}
+2024-08-08T18:42:33.688+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel authority set to "127.0.0.1:8080"	{"system": "grpc", "grpc_log": true}
+2024-08-08T18:42:33.689+0800	INFO	module.grpcGateway	grpcGateway/mod.go:122	init gRPC gateway success...
+2024-08-08T18:42:33.690+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1 ListenSocket #3]ListenSocket created	{"system": "grpc", "grpc_log": true}
+2024-08-08T18:43:06.633+0800	ERROR	grpc	runtime/errors.go:127	Failed to extract ServerMetadata from context	{"system": "grpc", "grpc_log": true}
+github.com/grpc-ecosystem/grpc-gateway/v2/runtime.DefaultHTTPErrorHandler
+	C:/Users/何一川/go/pkg/mod/github.com/grpc-ecosystem/grpc-gateway/v2@v2.21.0/runtime/errors.go:127
+github.com/grpc-ecosystem/grpc-gateway/v2/runtime.DefaultRoutingErrorHandler
+	C:/Users/何一川/go/pkg/mod/github.com/grpc-ecosystem/grpc-gateway/v2@v2.21.0/runtime/errors.go:180
+github.com/grpc-ecosystem/grpc-gateway/v2/runtime.(*ServeMux).ServeHTTP
+	C:/Users/何一川/go/pkg/mod/github.com/grpc-ecosystem/grpc-gateway/v2@v2.21.0/runtime/mux.go:489
+grpc-template-service/internal/mod/grpcGateway.(*Mod).PostInit.func2
+	F:/grpc-template-service/internal/mod/grpcGateway/mod.go:113
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	C:/Users/何一川/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.22.0.windows-amd64/src/net/http/server.go:3137
+net/http.(*conn).serve
+	C:/Users/何一川/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.22.0.windows-amd64/src/net/http/server.go:2039
+2024-08-08T18:46:02.765+0800	INFO	module.ginx	ginx/mod.go:88	failed to start to listen and serve	{"error": "mux: server closed"}
+2024-08-08T18:46:02.765+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1 ListenSocket #3]ListenSocket deleted	{"system": "grpc", "grpc_log": true}
+2024-08-08T18:46:02.765+0800	ERROR	module.ginx	kernel/kernel.go:96	mux: server closed
+grpc-template-service/core/kernel.(*Engine).StartModule.func1
+	F:/grpc-template-service/core/kernel/kernel.go:96
+2024-08-08T18:46:05.458+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1]Server created	{"system": "grpc", "grpc_log": true}
+2024-08-08T18:46:05.483+0800	INFO	module.grpcGateway	grpcGateway/mod.go:56	init gRPC server success...
+2024-08-08T18:46:05.483+0800	INFO	grpc	grpclog/component.go:36	[core]original dial target is: "127.0.0.1:8080"	{"system": "grpc", "grpc_log": true}
+2024-08-08T18:46:05.483+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel created	{"system": "grpc", "grpc_log": true}
+2024-08-08T18:46:05.483+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]parsed dial target is: resolver.Target{URL:url.URL{Scheme:"dns", Opaque:"", User:(*url.Userinfo)(nil), Host:"", Path:"/127.0.0.1:8080", RawPath:"", OmitHost:false, ForceQuery:false, RawQuery:"", Fragment:"", RawFragment:""}}	{"system": "grpc", "grpc_log": true}
+2024-08-08T18:46:05.483+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel authority set to "127.0.0.1:8080"	{"system": "grpc", "grpc_log": true}
+2024-08-08T18:46:05.483+0800	INFO	module.grpcGateway	grpcGateway/mod.go:122	init gRPC gateway success...
+2024-08-08T18:46:05.483+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1 ListenSocket #3]ListenSocket created	{"system": "grpc", "grpc_log": true}
+2024-08-08T18:46:33.600+0800	ERROR	grpc	runtime/errors.go:127	Failed to extract ServerMetadata from context	{"system": "grpc", "grpc_log": true}
+github.com/grpc-ecosystem/grpc-gateway/v2/runtime.DefaultHTTPErrorHandler
+	C:/Users/何一川/go/pkg/mod/github.com/grpc-ecosystem/grpc-gateway/v2@v2.21.0/runtime/errors.go:127
+github.com/grpc-ecosystem/grpc-gateway/v2/runtime.DefaultRoutingErrorHandler
+	C:/Users/何一川/go/pkg/mod/github.com/grpc-ecosystem/grpc-gateway/v2@v2.21.0/runtime/errors.go:180
+github.com/grpc-ecosystem/grpc-gateway/v2/runtime.(*ServeMux).ServeHTTP
+	C:/Users/何一川/go/pkg/mod/github.com/grpc-ecosystem/grpc-gateway/v2@v2.21.0/runtime/mux.go:489
+grpc-template-service/internal/mod/grpcGateway.(*Mod).PostInit.func2
+	F:/grpc-template-service/internal/mod/grpcGateway/mod.go:113
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	C:/Users/何一川/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.22.0.windows-amd64/src/net/http/server.go:3137
+net/http.(*conn).serve
+	C:/Users/何一川/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.22.0.windows-amd64/src/net/http/server.go:2039
+2024-08-08T18:47:38.462+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1 ListenSocket #3]ListenSocket deleted	{"system": "grpc", "grpc_log": true}
+2024-08-08T18:47:38.462+0800	INFO	module.ginx	ginx/mod.go:88	failed to start to listen and serve	{"error": "mux: server closed"}
+2024-08-08T18:47:38.462+0800	ERROR	module.ginx	kernel/kernel.go:96	mux: server closed
+grpc-template-service/core/kernel.(*Engine).StartModule.func1
+	F:/grpc-template-service/core/kernel/kernel.go:96
+2024-08-08T18:47:46.273+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1]Server created	{"system": "grpc", "grpc_log": true}
+2024-08-08T18:47:46.296+0800	INFO	module.grpcGateway	grpcGateway/mod.go:56	init gRPC server success...
+2024-08-08T18:47:46.296+0800	INFO	grpc	grpclog/component.go:36	[core]original dial target is: "127.0.0.1:8080"	{"system": "grpc", "grpc_log": true}
+2024-08-08T18:47:46.296+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel created	{"system": "grpc", "grpc_log": true}
+2024-08-08T18:47:46.296+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]parsed dial target is: resolver.Target{URL:url.URL{Scheme:"dns", Opaque:"", User:(*url.Userinfo)(nil), Host:"", Path:"/127.0.0.1:8080", RawPath:"", OmitHost:false, ForceQuery:false, RawQuery:"", Fragment:"", RawFragment:""}}	{"system": "grpc", "grpc_log": true}
+2024-08-08T18:47:46.296+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel authority set to "127.0.0.1:8080"	{"system": "grpc", "grpc_log": true}
+2024-08-08T18:47:46.296+0800	INFO	module.grpcGateway	grpcGateway/mod.go:122	init gRPC gateway success...
+2024-08-08T18:47:46.296+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1 ListenSocket #3]ListenSocket created	{"system": "grpc", "grpc_log": true}
+2024-08-08T18:47:58.375+0800	ERROR	grpc	runtime/errors.go:127	Failed to extract ServerMetadata from context	{"system": "grpc", "grpc_log": true}
+github.com/grpc-ecosystem/grpc-gateway/v2/runtime.DefaultHTTPErrorHandler
+	C:/Users/何一川/go/pkg/mod/github.com/grpc-ecosystem/grpc-gateway/v2@v2.21.0/runtime/errors.go:127
+github.com/grpc-ecosystem/grpc-gateway/v2/runtime.DefaultRoutingErrorHandler
+	C:/Users/何一川/go/pkg/mod/github.com/grpc-ecosystem/grpc-gateway/v2@v2.21.0/runtime/errors.go:180
+github.com/grpc-ecosystem/grpc-gateway/v2/runtime.(*ServeMux).ServeHTTP
+	C:/Users/何一川/go/pkg/mod/github.com/grpc-ecosystem/grpc-gateway/v2@v2.21.0/runtime/mux.go:489
+grpc-template-service/internal/mod/grpcGateway.(*Mod).PostInit.func2
+	F:/grpc-template-service/internal/mod/grpcGateway/mod.go:113
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	C:/Users/何一川/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.22.0.windows-amd64/src/net/http/server.go:3137
+net/http.(*conn).serve
+	C:/Users/何一川/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.22.0.windows-amd64/src/net/http/server.go:2039
+2024-08-08T18:49:08.888+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1 ListenSocket #3]ListenSocket deleted	{"system": "grpc", "grpc_log": true}
+2024-08-08T18:49:08.888+0800	INFO	module.ginx	ginx/mod.go:88	failed to start to listen and serve	{"error": "mux: server closed"}
+2024-08-08T18:49:08.889+0800	ERROR	module.ginx	kernel/kernel.go:96	mux: server closed
+grpc-template-service/core/kernel.(*Engine).StartModule.func1
+	F:/grpc-template-service/core/kernel/kernel.go:96
+2024-08-08T18:50:15.881+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1]Server created	{"system": "grpc", "grpc_log": true}
+2024-08-08T18:50:15.909+0800	INFO	module.grpcGateway	grpcGateway/mod.go:56	init gRPC server success...
+2024-08-08T18:50:15.909+0800	INFO	grpc	grpclog/component.go:36	[core]original dial target is: "127.0.0.1:8080"	{"system": "grpc", "grpc_log": true}
+2024-08-08T18:50:15.909+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel created	{"system": "grpc", "grpc_log": true}
+2024-08-08T18:50:15.909+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]parsed dial target is: resolver.Target{URL:url.URL{Scheme:"dns", Opaque:"", User:(*url.Userinfo)(nil), Host:"", Path:"/127.0.0.1:8080", RawPath:"", OmitHost:false, ForceQuery:false, RawQuery:"", Fragment:"", RawFragment:""}}	{"system": "grpc", "grpc_log": true}
+2024-08-08T18:50:15.909+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel authority set to "127.0.0.1:8080"	{"system": "grpc", "grpc_log": true}
+2024-08-08T18:50:30.788+0800	INFO	module.grpcGateway	grpcGateway/mod.go:121	init gRPC gateway success...
+2024-08-08T18:50:40.123+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1 ListenSocket #3]ListenSocket created	{"system": "grpc", "grpc_log": true}
+2024-08-08T18:50:44.586+0800	ERROR	grpc	runtime/errors.go:127	Failed to extract ServerMetadata from context	{"system": "grpc", "grpc_log": true}
+github.com/grpc-ecosystem/grpc-gateway/v2/runtime.DefaultHTTPErrorHandler
+	C:/Users/何一川/go/pkg/mod/github.com/grpc-ecosystem/grpc-gateway/v2@v2.21.0/runtime/errors.go:127
+github.com/grpc-ecosystem/grpc-gateway/v2/runtime.DefaultRoutingErrorHandler
+	C:/Users/何一川/go/pkg/mod/github.com/grpc-ecosystem/grpc-gateway/v2@v2.21.0/runtime/errors.go:180
+github.com/grpc-ecosystem/grpc-gateway/v2/runtime.(*ServeMux).ServeHTTP
+	C:/Users/何一川/go/pkg/mod/github.com/grpc-ecosystem/grpc-gateway/v2@v2.21.0/runtime/mux.go:489
+grpc-template-service/internal/mod/grpcGateway.(*Mod).PostInit.func2
+	F:/grpc-template-service/internal/mod/grpcGateway/mod.go:112
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	C:/Users/何一川/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.22.0.windows-amd64/src/net/http/server.go:3137
+net/http.(*conn).serve
+	C:/Users/何一川/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.22.0.windows-amd64/src/net/http/server.go:2039
+2024-08-08T18:50:46.553+0800	ERROR	grpc	runtime/errors.go:127	Failed to extract ServerMetadata from context	{"system": "grpc", "grpc_log": true}
+github.com/grpc-ecosystem/grpc-gateway/v2/runtime.DefaultHTTPErrorHandler
+	C:/Users/何一川/go/pkg/mod/github.com/grpc-ecosystem/grpc-gateway/v2@v2.21.0/runtime/errors.go:127
+github.com/grpc-ecosystem/grpc-gateway/v2/runtime.DefaultRoutingErrorHandler
+	C:/Users/何一川/go/pkg/mod/github.com/grpc-ecosystem/grpc-gateway/v2@v2.21.0/runtime/errors.go:180
+github.com/grpc-ecosystem/grpc-gateway/v2/runtime.(*ServeMux).ServeHTTP
+	C:/Users/何一川/go/pkg/mod/github.com/grpc-ecosystem/grpc-gateway/v2@v2.21.0/runtime/mux.go:489
+grpc-template-service/internal/mod/grpcGateway.(*Mod).PostInit.func2
+	F:/grpc-template-service/internal/mod/grpcGateway/mod.go:112
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	C:/Users/何一川/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.22.0.windows-amd64/src/net/http/server.go:3137
+net/http.(*conn).serve
+	C:/Users/何一川/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.22.0.windows-amd64/src/net/http/server.go:2039
+2024-08-08T18:51:16.187+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1 ListenSocket #3]ListenSocket deleted	{"system": "grpc", "grpc_log": true}
+2024-08-08T18:51:16.187+0800	INFO	module.ginx	ginx/mod.go:88	failed to start to listen and serve	{"error": "mux: server closed"}
+2024-08-08T18:51:16.187+0800	ERROR	module.ginx	kernel/kernel.go:96	mux: server closed
+grpc-template-service/core/kernel.(*Engine).StartModule.func1
+	F:/grpc-template-service/core/kernel/kernel.go:96
+2024-08-08T18:51:20.582+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1]Server created	{"system": "grpc", "grpc_log": true}
+2024-08-08T18:51:20.600+0800	INFO	module.grpcGateway	grpcGateway/mod.go:56	init gRPC server success...
+2024-08-08T18:51:20.600+0800	INFO	grpc	grpclog/component.go:36	[core]original dial target is: "127.0.0.1:8080"	{"system": "grpc", "grpc_log": true}
+2024-08-08T18:51:20.600+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel created	{"system": "grpc", "grpc_log": true}
+2024-08-08T18:51:20.600+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]parsed dial target is: resolver.Target{URL:url.URL{Scheme:"dns", Opaque:"", User:(*url.Userinfo)(nil), Host:"", Path:"/127.0.0.1:8080", RawPath:"", OmitHost:false, ForceQuery:false, RawQuery:"", Fragment:"", RawFragment:""}}	{"system": "grpc", "grpc_log": true}
+2024-08-08T18:51:20.600+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel authority set to "127.0.0.1:8080"	{"system": "grpc", "grpc_log": true}
+2024-08-08T18:51:20.600+0800	INFO	module.grpcGateway	grpcGateway/mod.go:121	init gRPC gateway success...
+2024-08-08T18:51:20.601+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1 ListenSocket #3]ListenSocket created	{"system": "grpc", "grpc_log": true}
+2024-08-08T18:51:27.239+0800	ERROR	grpc	runtime/errors.go:127	Failed to extract ServerMetadata from context	{"system": "grpc", "grpc_log": true}
+github.com/grpc-ecosystem/grpc-gateway/v2/runtime.DefaultHTTPErrorHandler
+	C:/Users/何一川/go/pkg/mod/github.com/grpc-ecosystem/grpc-gateway/v2@v2.21.0/runtime/errors.go:127
+github.com/grpc-ecosystem/grpc-gateway/v2/runtime.DefaultRoutingErrorHandler
+	C:/Users/何一川/go/pkg/mod/github.com/grpc-ecosystem/grpc-gateway/v2@v2.21.0/runtime/errors.go:180
+github.com/grpc-ecosystem/grpc-gateway/v2/runtime.(*ServeMux).ServeHTTP
+	C:/Users/何一川/go/pkg/mod/github.com/grpc-ecosystem/grpc-gateway/v2@v2.21.0/runtime/mux.go:489
+grpc-template-service/internal/mod/grpcGateway.(*Mod).PostInit.func2
+	F:/grpc-template-service/internal/mod/grpcGateway/mod.go:112
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	C:/Users/何一川/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.22.0.windows-amd64/src/net/http/server.go:3137
+net/http.(*conn).serve
+	C:/Users/何一川/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.22.0.windows-amd64/src/net/http/server.go:2039
+2024-08-08T19:01:15.638+0800	ERROR	grpc	runtime/errors.go:127	Failed to extract ServerMetadata from context	{"system": "grpc", "grpc_log": true}
+github.com/grpc-ecosystem/grpc-gateway/v2/runtime.DefaultHTTPErrorHandler
+	C:/Users/何一川/go/pkg/mod/github.com/grpc-ecosystem/grpc-gateway/v2@v2.21.0/runtime/errors.go:127
+github.com/grpc-ecosystem/grpc-gateway/v2/runtime.DefaultRoutingErrorHandler
+	C:/Users/何一川/go/pkg/mod/github.com/grpc-ecosystem/grpc-gateway/v2@v2.21.0/runtime/errors.go:180
+github.com/grpc-ecosystem/grpc-gateway/v2/runtime.(*ServeMux).ServeHTTP
+	C:/Users/何一川/go/pkg/mod/github.com/grpc-ecosystem/grpc-gateway/v2@v2.21.0/runtime/mux.go:489
+grpc-template-service/internal/mod/grpcGateway.(*Mod).PostInit.func2
+	F:/grpc-template-service/internal/mod/grpcGateway/mod.go:112
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	C:/Users/何一川/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.22.0.windows-amd64/src/net/http/server.go:3137
+net/http.(*conn).serve
+	C:/Users/何一川/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.22.0.windows-amd64/src/net/http/server.go:2039
+2024-08-08T19:01:18.671+0800	ERROR	grpc	runtime/errors.go:127	Failed to extract ServerMetadata from context	{"system": "grpc", "grpc_log": true}
+github.com/grpc-ecosystem/grpc-gateway/v2/runtime.DefaultHTTPErrorHandler
+	C:/Users/何一川/go/pkg/mod/github.com/grpc-ecosystem/grpc-gateway/v2@v2.21.0/runtime/errors.go:127
+github.com/grpc-ecosystem/grpc-gateway/v2/runtime.DefaultRoutingErrorHandler
+	C:/Users/何一川/go/pkg/mod/github.com/grpc-ecosystem/grpc-gateway/v2@v2.21.0/runtime/errors.go:180
+github.com/grpc-ecosystem/grpc-gateway/v2/runtime.(*ServeMux).ServeHTTP
+	C:/Users/何一川/go/pkg/mod/github.com/grpc-ecosystem/grpc-gateway/v2@v2.21.0/runtime/mux.go:489
+grpc-template-service/internal/mod/grpcGateway.(*Mod).PostInit.func2
+	F:/grpc-template-service/internal/mod/grpcGateway/mod.go:112
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	C:/Users/何一川/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.22.0.windows-amd64/src/net/http/server.go:3137
+net/http.(*conn).serve
+	C:/Users/何一川/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.22.0.windows-amd64/src/net/http/server.go:2039
+2024-08-08T19:01:20.961+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1 ListenSocket #3]ListenSocket deleted	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:01:20.961+0800	INFO	module.ginx	ginx/mod.go:88	failed to start to listen and serve	{"error": "mux: server closed"}
+2024-08-08T19:01:23.758+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1]Server created	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:01:23.777+0800	INFO	module.grpcGateway	grpcGateway/mod.go:56	init gRPC server success...
+2024-08-08T19:01:23.777+0800	INFO	grpc	grpclog/component.go:36	[core]original dial target is: "127.0.0.1:8080"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:01:23.777+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel created	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:01:23.777+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]parsed dial target is: resolver.Target{URL:url.URL{Scheme:"dns", Opaque:"", User:(*url.Userinfo)(nil), Host:"", Path:"/127.0.0.1:8080", RawPath:"", OmitHost:false, ForceQuery:false, RawQuery:"", Fragment:"", RawFragment:""}}	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:01:23.777+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel authority set to "127.0.0.1:8080"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:01:23.777+0800	INFO	module.grpcGateway	grpcGateway/mod.go:121	init gRPC gateway success...
+2024-08-08T19:01:23.777+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1 ListenSocket #3]ListenSocket created	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:01:25.883+0800	ERROR	grpc	runtime/errors.go:127	Failed to extract ServerMetadata from context	{"system": "grpc", "grpc_log": true}
+github.com/grpc-ecosystem/grpc-gateway/v2/runtime.DefaultHTTPErrorHandler
+	C:/Users/何一川/go/pkg/mod/github.com/grpc-ecosystem/grpc-gateway/v2@v2.21.0/runtime/errors.go:127
+github.com/grpc-ecosystem/grpc-gateway/v2/runtime.DefaultRoutingErrorHandler
+	C:/Users/何一川/go/pkg/mod/github.com/grpc-ecosystem/grpc-gateway/v2@v2.21.0/runtime/errors.go:180
+github.com/grpc-ecosystem/grpc-gateway/v2/runtime.(*ServeMux).ServeHTTP
+	C:/Users/何一川/go/pkg/mod/github.com/grpc-ecosystem/grpc-gateway/v2@v2.21.0/runtime/mux.go:489
+grpc-template-service/internal/mod/grpcGateway.(*Mod).PostInit.func2
+	F:/grpc-template-service/internal/mod/grpcGateway/mod.go:112
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	C:/Users/何一川/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.22.0.windows-amd64/src/net/http/server.go:3137
+net/http.(*conn).serve
+	C:/Users/何一川/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.22.0.windows-amd64/src/net/http/server.go:2039
+2024-08-08T19:03:54.016+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1 ListenSocket #3]ListenSocket deleted	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:03:54.016+0800	INFO	module.ginx	ginx/mod.go:88	failed to start to listen and serve	{"error": "mux: server closed"}
+2024-08-08T19:04:04.414+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1]Server created	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:04:04.433+0800	INFO	module.grpcGateway	grpcGateway/mod.go:54	init gRPC server success...
+2024-08-08T19:04:04.433+0800	INFO	grpc	grpclog/component.go:36	[core]original dial target is: "127.0.0.1:8080"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:04:04.433+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel created	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:04:04.433+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]parsed dial target is: resolver.Target{URL:url.URL{Scheme:"dns", Opaque:"", User:(*url.Userinfo)(nil), Host:"", Path:"/127.0.0.1:8080", RawPath:"", OmitHost:false, ForceQuery:false, RawQuery:"", Fragment:"", RawFragment:""}}	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:04:04.433+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel authority set to "127.0.0.1:8080"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:04:04.433+0800	INFO	module.grpcGateway	grpcGateway/mod.go:119	init gRPC gateway success...
+2024-08-08T19:04:04.433+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1 ListenSocket #3]ListenSocket created	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:04:06.441+0800	ERROR	grpc	runtime/errors.go:127	Failed to extract ServerMetadata from context	{"system": "grpc", "grpc_log": true}
+github.com/grpc-ecosystem/grpc-gateway/v2/runtime.DefaultHTTPErrorHandler
+	C:/Users/何一川/go/pkg/mod/github.com/grpc-ecosystem/grpc-gateway/v2@v2.21.0/runtime/errors.go:127
+github.com/grpc-ecosystem/grpc-gateway/v2/runtime.DefaultRoutingErrorHandler
+	C:/Users/何一川/go/pkg/mod/github.com/grpc-ecosystem/grpc-gateway/v2@v2.21.0/runtime/errors.go:180
+github.com/grpc-ecosystem/grpc-gateway/v2/runtime.(*ServeMux).ServeHTTP
+	C:/Users/何一川/go/pkg/mod/github.com/grpc-ecosystem/grpc-gateway/v2@v2.21.0/runtime/mux.go:489
+grpc-template-service/internal/mod/grpcGateway.(*Mod).PostInit.func2
+	F:/grpc-template-service/internal/mod/grpcGateway/mod.go:110
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	C:/Users/何一川/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.22.0.windows-amd64/src/net/http/server.go:3137
+net/http.(*conn).serve
+	C:/Users/何一川/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.22.0.windows-amd64/src/net/http/server.go:2039
+2024-08-08T19:05:20.637+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1 ListenSocket #3]ListenSocket deleted	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:05:20.637+0800	INFO	module.ginx	ginx/mod.go:88	failed to start to listen and serve	{"error": "mux: server closed"}
+2024-08-08T19:05:20.637+0800	ERROR	module.ginx	kernel/kernel.go:96	mux: server closed
+grpc-template-service/core/kernel.(*Engine).StartModule.func1
+	F:/grpc-template-service/core/kernel/kernel.go:96
+2024-08-08T19:05:28.166+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1]Server created	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:05:28.188+0800	INFO	module.grpcGateway	grpcGateway/mod.go:56	init gRPC server success...
+2024-08-08T19:05:28.188+0800	INFO	grpc	grpclog/component.go:36	[core]original dial target is: "127.0.0.1:8080"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:05:28.188+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel created	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:05:28.188+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]parsed dial target is: resolver.Target{URL:url.URL{Scheme:"dns", Opaque:"", User:(*url.Userinfo)(nil), Host:"", Path:"/127.0.0.1:8080", RawPath:"", OmitHost:false, ForceQuery:false, RawQuery:"", Fragment:"", RawFragment:""}}	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:05:28.188+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel authority set to "127.0.0.1:8080"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:05:28.188+0800	INFO	module.grpcGateway	grpcGateway/mod.go:121	init gRPC gateway success...
+2024-08-08T19:05:28.188+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1 ListenSocket #3]ListenSocket created	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:05:30.987+0800	ERROR	grpc	runtime/errors.go:127	Failed to extract ServerMetadata from context	{"system": "grpc", "grpc_log": true}
+github.com/grpc-ecosystem/grpc-gateway/v2/runtime.DefaultHTTPErrorHandler
+	C:/Users/何一川/go/pkg/mod/github.com/grpc-ecosystem/grpc-gateway/v2@v2.21.0/runtime/errors.go:127
+github.com/grpc-ecosystem/grpc-gateway/v2/runtime.DefaultRoutingErrorHandler
+	C:/Users/何一川/go/pkg/mod/github.com/grpc-ecosystem/grpc-gateway/v2@v2.21.0/runtime/errors.go:180
+github.com/grpc-ecosystem/grpc-gateway/v2/runtime.(*ServeMux).ServeHTTP
+	C:/Users/何一川/go/pkg/mod/github.com/grpc-ecosystem/grpc-gateway/v2@v2.21.0/runtime/mux.go:489
+grpc-template-service/internal/mod/grpcGateway.(*Mod).PostInit.func2
+	F:/grpc-template-service/internal/mod/grpcGateway/mod.go:112
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	C:/Users/何一川/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.22.0.windows-amd64/src/net/http/server.go:3137
+net/http.(*conn).serve
+	C:/Users/何一川/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.22.0.windows-amd64/src/net/http/server.go:2039
+2024-08-08T19:06:48.857+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1 ListenSocket #3]ListenSocket deleted	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:06:48.856+0800	INFO	module.ginx	ginx/mod.go:88	failed to start to listen and serve	{"error": "mux: server closed"}
+2024-08-08T19:06:48.857+0800	ERROR	module.ginx	kernel/kernel.go:96	mux: server closed
+grpc-template-service/core/kernel.(*Engine).StartModule.func1
+	F:/grpc-template-service/core/kernel/kernel.go:96
+2024-08-08T19:06:56.053+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1]Server created	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:06:56.077+0800	INFO	module.grpcGateway	grpcGateway/mod.go:56	init gRPC server success...
+2024-08-08T19:06:56.077+0800	INFO	grpc	grpclog/component.go:36	[core]original dial target is: "127.0.0.1:8080"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:06:56.077+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel created	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:06:56.077+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]parsed dial target is: resolver.Target{URL:url.URL{Scheme:"dns", Opaque:"", User:(*url.Userinfo)(nil), Host:"", Path:"/127.0.0.1:8080", RawPath:"", OmitHost:false, ForceQuery:false, RawQuery:"", Fragment:"", RawFragment:""}}	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:06:56.077+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel authority set to "127.0.0.1:8080"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:06:56.077+0800	INFO	module.grpcGateway	grpcGateway/mod.go:121	init gRPC gateway success...
+2024-08-08T19:06:56.077+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1 ListenSocket #3]ListenSocket created	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:07:04.657+0800	ERROR	grpc	runtime/errors.go:127	Failed to extract ServerMetadata from context	{"system": "grpc", "grpc_log": true}
+github.com/grpc-ecosystem/grpc-gateway/v2/runtime.DefaultHTTPErrorHandler
+	C:/Users/何一川/go/pkg/mod/github.com/grpc-ecosystem/grpc-gateway/v2@v2.21.0/runtime/errors.go:127
+github.com/grpc-ecosystem/grpc-gateway/v2/runtime.DefaultRoutingErrorHandler
+	C:/Users/何一川/go/pkg/mod/github.com/grpc-ecosystem/grpc-gateway/v2@v2.21.0/runtime/errors.go:180
+github.com/grpc-ecosystem/grpc-gateway/v2/runtime.(*ServeMux).ServeHTTP
+	C:/Users/何一川/go/pkg/mod/github.com/grpc-ecosystem/grpc-gateway/v2@v2.21.0/runtime/mux.go:489
+grpc-template-service/internal/mod/grpcGateway.(*Mod).PostInit.func2
+	F:/grpc-template-service/internal/mod/grpcGateway/mod.go:112
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	C:/Users/何一川/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.22.0.windows-amd64/src/net/http/server.go:3137
+net/http.(*conn).serve
+	C:/Users/何一川/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.22.0.windows-amd64/src/net/http/server.go:2039
+2024-08-08T19:11:44.714+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1 ListenSocket #3]ListenSocket deleted	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:11:44.714+0800	INFO	module.ginx	ginx/mod.go:88	failed to start to listen and serve	{"error": "mux: server closed"}
+2024-08-08T19:11:44.715+0800	ERROR	module.ginx	kernel/kernel.go:96	mux: server closed
+grpc-template-service/core/kernel.(*Engine).StartModule.func1
+	F:/grpc-template-service/core/kernel/kernel.go:96
+2024-08-08T19:11:53.615+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1]Server created	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:11:53.641+0800	INFO	module.grpcGateway	grpcGateway/mod.go:56	init gRPC server success...
+2024-08-08T19:11:53.641+0800	INFO	grpc	grpclog/component.go:36	[core]original dial target is: "127.0.0.1:8080"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:11:53.641+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel created	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:11:53.641+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]parsed dial target is: resolver.Target{URL:url.URL{Scheme:"dns", Opaque:"", User:(*url.Userinfo)(nil), Host:"", Path:"/127.0.0.1:8080", RawPath:"", OmitHost:false, ForceQuery:false, RawQuery:"", Fragment:"", RawFragment:""}}	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:11:53.641+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel authority set to "127.0.0.1:8080"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:11:53.641+0800	INFO	module.grpcGateway	grpcGateway/mod.go:121	init gRPC gateway success...
+2024-08-08T19:11:53.642+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1 ListenSocket #3]ListenSocket created	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:12:23.042+0800	ERROR	grpc	runtime/errors.go:127	Failed to extract ServerMetadata from context	{"system": "grpc", "grpc_log": true}
+github.com/grpc-ecosystem/grpc-gateway/v2/runtime.DefaultHTTPErrorHandler
+	C:/Users/何一川/go/pkg/mod/github.com/grpc-ecosystem/grpc-gateway/v2@v2.21.0/runtime/errors.go:127
+github.com/grpc-ecosystem/grpc-gateway/v2/runtime.DefaultRoutingErrorHandler
+	C:/Users/何一川/go/pkg/mod/github.com/grpc-ecosystem/grpc-gateway/v2@v2.21.0/runtime/errors.go:180
+github.com/grpc-ecosystem/grpc-gateway/v2/runtime.(*ServeMux).ServeHTTP
+	C:/Users/何一川/go/pkg/mod/github.com/grpc-ecosystem/grpc-gateway/v2@v2.21.0/runtime/mux.go:483
+grpc-template-service/internal/mod/grpcGateway.(*Mod).PostInit.func2
+	F:/grpc-template-service/internal/mod/grpcGateway/mod.go:112
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/何一川/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	C:/Users/何一川/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.22.0.windows-amd64/src/net/http/server.go:3137
+net/http.(*conn).serve
+	C:/Users/何一川/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.22.0.windows-amd64/src/net/http/server.go:2039
+2024-08-08T19:12:44.378+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Resolver state updated: {
+  "Addresses": [
+    {
+      "Addr": "127.0.0.1:8080",
+      "ServerName": "",
+      "Attributes": null,
+      "BalancerAttributes": null,
+      "Metadata": null
+    }
+  ],
+  "Endpoints": [
+    {
+      "Addresses": [
+        {
+          "Addr": "127.0.0.1:8080",
+          "ServerName": "",
+          "Attributes": null,
+          "BalancerAttributes": null,
+          "Metadata": null
+        }
+      ],
+      "Attributes": null
+    }
+  ],
+  "ServiceConfig": null,
+  "Attributes": null
+} (resolver returned new addresses)	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:12:44.379+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel switches to new LB policy "pick_first"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:12:44.379+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel created	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:12:44.379+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel Connectivity change to CONNECTING	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:12:44.379+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel exiting idle mode	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:12:44.380+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to CONNECTING	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:12:44.380+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel picks a new address "127.0.0.1:8080" to connect	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:13:04.392+0800	WARN	grpc	grpclog/component.go:41	[core][Channel #2 SubChannel #4]grpc: addrConn.createTransport failed to connect to {Addr: "127.0.0.1:8080", ServerName: "127.0.0.1:8080", }. Err: connection error: desc = "error reading server preface: read tcp 127.0.0.1:50848->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:13:04.392+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to TRANSIENT_FAILURE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:50848->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:13:04.393+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel Connectivity change to TRANSIENT_FAILURE	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:13:05.400+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to IDLE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:50848->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:13:05.402+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to CONNECTING	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:13:05.402+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel picks a new address "127.0.0.1:8080" to connect	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:13:05.858+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1 ListenSocket #3]ListenSocket deleted	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:13:05.858+0800	INFO	module.ginx	ginx/mod.go:88	failed to start to listen and serve	{"error": "mux: server closed"}
+2024-08-08T19:13:05.859+0800	ERROR	module.ginx	kernel/kernel.go:96	mux: server closed
+grpc-template-service/core/kernel.(*Engine).StartModule.func1
+	F:/grpc-template-service/core/kernel/kernel.go:96
+2024-08-08T19:13:07.717+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1]Server created	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:13:07.737+0800	INFO	module.grpcGateway	grpcGateway/mod.go:56	init gRPC server success...
+2024-08-08T19:13:07.737+0800	INFO	grpc	grpclog/component.go:36	[core]original dial target is: "127.0.0.1:8080"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:13:07.737+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel created	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:13:07.737+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]parsed dial target is: resolver.Target{URL:url.URL{Scheme:"dns", Opaque:"", User:(*url.Userinfo)(nil), Host:"", Path:"/127.0.0.1:8080", RawPath:"", OmitHost:false, ForceQuery:false, RawQuery:"", Fragment:"", RawFragment:""}}	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:13:07.737+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel authority set to "127.0.0.1:8080"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:13:07.740+0800	INFO	module.grpcGateway	grpcGateway/mod.go:121	init gRPC gateway success...
+2024-08-08T19:13:07.740+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1 ListenSocket #3]ListenSocket created	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:13:10.372+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Resolver state updated: {
+  "Addresses": [
+    {
+      "Addr": "127.0.0.1:8080",
+      "ServerName": "",
+      "Attributes": null,
+      "BalancerAttributes": null,
+      "Metadata": null
+    }
+  ],
+  "Endpoints": [
+    {
+      "Addresses": [
+        {
+          "Addr": "127.0.0.1:8080",
+          "ServerName": "",
+          "Attributes": null,
+          "BalancerAttributes": null,
+          "Metadata": null
+        }
+      ],
+      "Attributes": null
+    }
+  ],
+  "ServiceConfig": null,
+  "Attributes": null
+} (resolver returned new addresses)	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:13:10.372+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel switches to new LB policy "pick_first"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:13:10.372+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel created	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:13:10.372+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel Connectivity change to CONNECTING	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:13:10.373+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel exiting idle mode	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:13:10.373+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to CONNECTING	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:13:10.373+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel picks a new address "127.0.0.1:8080" to connect	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:13:30.381+0800	WARN	grpc	grpclog/component.go:41	[core][Channel #2 SubChannel #4]grpc: addrConn.createTransport failed to connect to {Addr: "127.0.0.1:8080", ServerName: "127.0.0.1:8080", }. Err: connection error: desc = "error reading server preface: read tcp 127.0.0.1:50877->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:13:30.381+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to TRANSIENT_FAILURE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:50877->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:13:30.381+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel Connectivity change to TRANSIENT_FAILURE	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:13:31.383+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to IDLE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:50877->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:13:31.383+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to CONNECTING	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:13:31.383+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel picks a new address "127.0.0.1:8080" to connect	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:13:51.389+0800	WARN	grpc	grpclog/component.go:41	[core][Channel #2 SubChannel #4]grpc: addrConn.createTransport failed to connect to {Addr: "127.0.0.1:8080", ServerName: "127.0.0.1:8080", }. Err: connection error: desc = "error reading server preface: read tcp 127.0.0.1:50898->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:13:51.389+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to TRANSIENT_FAILURE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:50898->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:13:52.946+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to IDLE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:50898->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:13:52.946+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to CONNECTING	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:13:52.946+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel picks a new address "127.0.0.1:8080" to connect	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:14:12.951+0800	WARN	grpc	grpclog/component.go:41	[core][Channel #2 SubChannel #4]grpc: addrConn.createTransport failed to connect to {Addr: "127.0.0.1:8080", ServerName: "127.0.0.1:8080", }. Err: connection error: desc = "error reading server preface: read tcp 127.0.0.1:50923->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:14:12.951+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to TRANSIENT_FAILURE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:50923->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:14:15.252+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to IDLE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:50923->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:14:15.252+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to CONNECTING	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:14:15.252+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel picks a new address "127.0.0.1:8080" to connect	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:14:35.253+0800	WARN	grpc	grpclog/component.go:41	[core][Channel #2 SubChannel #4]grpc: addrConn.createTransport failed to connect to {Addr: "127.0.0.1:8080", ServerName: "127.0.0.1:8080", }. Err: connection error: desc = "error reading server preface: read tcp 127.0.0.1:50936->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:14:35.254+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to TRANSIENT_FAILURE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:50936->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:14:38.789+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to IDLE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:50936->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:14:38.789+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to CONNECTING	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:14:38.789+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel picks a new address "127.0.0.1:8080" to connect	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:14:58.556+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1 ListenSocket #3]ListenSocket deleted	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:14:58.556+0800	INFO	module.ginx	ginx/mod.go:88	failed to start to listen and serve	{"error": "mux: server closed"}
+2024-08-08T19:14:58.557+0800	ERROR	module.ginx	kernel/kernel.go:96	mux: server closed
+grpc-template-service/core/kernel.(*Engine).StartModule.func1
+	F:/grpc-template-service/core/kernel/kernel.go:96
+2024-08-08T19:16:53.139+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1]Server created	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:16:53.173+0800	INFO	module.grpcGateway	grpcGateway/mod.go:56	init gRPC server success...
+2024-08-08T19:16:53.174+0800	INFO	grpc	grpclog/component.go:36	[core]original dial target is: "127.0.0.1:7736"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:16:53.174+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel created	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:16:53.174+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]parsed dial target is: resolver.Target{URL:url.URL{Scheme:"dns", Opaque:"", User:(*url.Userinfo)(nil), Host:"", Path:"/127.0.0.1:7736", RawPath:"", OmitHost:false, ForceQuery:false, RawQuery:"", Fragment:"", RawFragment:""}}	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:16:53.174+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel authority set to "127.0.0.1:7736"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:16:53.174+0800	INFO	module.grpcGateway	grpcGateway/mod.go:121	init gRPC gateway success...
+2024-08-08T19:16:53.174+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1 ListenSocket #3]ListenSocket created	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:17:09.175+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Resolver state updated: {
+  "Addresses": [
+    {
+      "Addr": "127.0.0.1:7736",
+      "ServerName": "",
+      "Attributes": null,
+      "BalancerAttributes": null,
+      "Metadata": null
+    }
+  ],
+  "Endpoints": [
+    {
+      "Addresses": [
+        {
+          "Addr": "127.0.0.1:7736",
+          "ServerName": "",
+          "Attributes": null,
+          "BalancerAttributes": null,
+          "Metadata": null
+        }
+      ],
+      "Attributes": null
+    }
+  ],
+  "ServiceConfig": null,
+  "Attributes": null
+} (resolver returned new addresses)	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:17:09.176+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel switches to new LB policy "pick_first"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:17:09.176+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel created	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:17:09.176+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel Connectivity change to CONNECTING	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:17:09.176+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel exiting idle mode	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:17:09.176+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to CONNECTING	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:17:09.176+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel picks a new address "127.0.0.1:7736" to connect	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:17:29.191+0800	WARN	grpc	grpclog/component.go:41	[core][Channel #2 SubChannel #4]grpc: addrConn.createTransport failed to connect to {Addr: "127.0.0.1:7736", ServerName: "127.0.0.1:7736", }. Err: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51074->127.0.0.1:7736: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:17:29.191+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to TRANSIENT_FAILURE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51074->127.0.0.1:7736: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:17:29.191+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel Connectivity change to TRANSIENT_FAILURE	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:17:30.205+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to IDLE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51074->127.0.0.1:7736: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:17:30.205+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to CONNECTING	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:17:30.205+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel picks a new address "127.0.0.1:7736" to connect	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:17:50.210+0800	WARN	grpc	grpclog/component.go:41	[core][Channel #2 SubChannel #4]grpc: addrConn.createTransport failed to connect to {Addr: "127.0.0.1:7736", ServerName: "127.0.0.1:7736", }. Err: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51093->127.0.0.1:7736: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:17:50.210+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to TRANSIENT_FAILURE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51093->127.0.0.1:7736: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:17:52.004+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to IDLE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51093->127.0.0.1:7736: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:17:52.004+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to CONNECTING	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:17:52.004+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel picks a new address "127.0.0.1:7736" to connect	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:18:12.012+0800	WARN	grpc	grpclog/component.go:41	[core][Channel #2 SubChannel #4]grpc: addrConn.createTransport failed to connect to {Addr: "127.0.0.1:7736", ServerName: "127.0.0.1:7736", }. Err: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51108->127.0.0.1:7736: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:18:12.012+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to TRANSIENT_FAILURE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51108->127.0.0.1:7736: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:18:14.307+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to IDLE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51108->127.0.0.1:7736: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:18:14.308+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to CONNECTING	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:18:14.308+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel picks a new address "127.0.0.1:7736" to connect	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:18:34.312+0800	WARN	grpc	grpclog/component.go:41	[core][Channel #2 SubChannel #4]grpc: addrConn.createTransport failed to connect to {Addr: "127.0.0.1:7736", ServerName: "127.0.0.1:7736", }. Err: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51121->127.0.0.1:7736: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:18:34.313+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to TRANSIENT_FAILURE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51121->127.0.0.1:7736: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:18:38.814+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to IDLE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51121->127.0.0.1:7736: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:18:38.814+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to CONNECTING	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:18:38.814+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel picks a new address "127.0.0.1:7736" to connect	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:18:58.822+0800	WARN	grpc	grpclog/component.go:41	[core][Channel #2 SubChannel #4]grpc: addrConn.createTransport failed to connect to {Addr: "127.0.0.1:7736", ServerName: "127.0.0.1:7736", }. Err: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51208->127.0.0.1:7736: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:18:58.822+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to TRANSIENT_FAILURE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51208->127.0.0.1:7736: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:19:06.674+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to IDLE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51208->127.0.0.1:7736: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:19:06.674+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to CONNECTING	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:19:06.674+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel picks a new address "127.0.0.1:7736" to connect	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:19:26.689+0800	WARN	grpc	grpclog/component.go:41	[core][Channel #2 SubChannel #4]grpc: addrConn.createTransport failed to connect to {Addr: "127.0.0.1:7736", ServerName: "127.0.0.1:7736", }. Err: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51229->127.0.0.1:7736: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:19:26.690+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to TRANSIENT_FAILURE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51229->127.0.0.1:7736: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:19:36.756+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to IDLE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51229->127.0.0.1:7736: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:19:36.758+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to CONNECTING	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:19:36.758+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel picks a new address "127.0.0.1:7736" to connect	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:19:56.763+0800	WARN	grpc	grpclog/component.go:41	[core][Channel #2 SubChannel #4]grpc: addrConn.createTransport failed to connect to {Addr: "127.0.0.1:7736", ServerName: "127.0.0.1:7736", }. Err: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51266->127.0.0.1:7736: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:19:56.764+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to TRANSIENT_FAILURE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51266->127.0.0.1:7736: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:20:12.794+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to IDLE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51266->127.0.0.1:7736: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:20:12.795+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to CONNECTING	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:20:12.796+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel picks a new address "127.0.0.1:7736" to connect	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:20:39.912+0800	WARN	grpc	grpclog/component.go:41	[core][Channel #2 SubChannel #4]grpc: addrConn.createTransport failed to connect to {Addr: "127.0.0.1:7736", ServerName: "127.0.0.1:7736", }. Err: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51289->127.0.0.1:7736: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:20:39.912+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to TRANSIENT_FAILURE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51289->127.0.0.1:7736: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:21:07.027+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to IDLE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51289->127.0.0.1:7736: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:21:07.027+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to CONNECTING	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:21:07.027+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel picks a new address "127.0.0.1:7736" to connect	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:21:52.641+0800	WARN	grpc	grpclog/component.go:41	[core][Channel #2 SubChannel #4]grpc: addrConn.createTransport failed to connect to {Addr: "127.0.0.1:7736", ServerName: "127.0.0.1:7736", }. Err: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51332->127.0.0.1:7736: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:21:52.641+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to TRANSIENT_FAILURE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51332->127.0.0.1:7736: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:22:38.257+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to IDLE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51332->127.0.0.1:7736: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:22:38.258+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to CONNECTING	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:22:38.258+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel picks a new address "127.0.0.1:7736" to connect	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:23:40.593+0800	WARN	grpc	grpclog/component.go:41	[core][Channel #2 SubChannel #4]grpc: addrConn.createTransport failed to connect to {Addr: "127.0.0.1:7736", ServerName: "127.0.0.1:7736", }. Err: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51501->127.0.0.1:7736: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:23:40.593+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to TRANSIENT_FAILURE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51501->127.0.0.1:7736: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:24:42.928+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to IDLE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51501->127.0.0.1:7736: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:24:42.931+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to CONNECTING	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:24:42.932+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel picks a new address "127.0.0.1:7736" to connect	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:26:22.760+0800	WARN	grpc	grpclog/component.go:41	[core][Channel #2 SubChannel #4]grpc: addrConn.createTransport failed to connect to {Addr: "127.0.0.1:7736", ServerName: "127.0.0.1:7736", }. Err: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51598->127.0.0.1:7736: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:26:22.760+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to TRANSIENT_FAILURE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51598->127.0.0.1:7736: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:26:52.907+0800	INFO	module.ginx	ginx/mod.go:88	failed to start to listen and serve	{"error": "mux: server closed"}
+2024-08-08T19:26:52.908+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1 ListenSocket #3]ListenSocket deleted	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:26:52.908+0800	ERROR	module.ginx	kernel/kernel.go:96	mux: server closedmodule.Startginx
+grpc-template-service/core/kernel.(*Engine).StartModule.func1
+	F:/grpc-template-service/core/kernel/kernel.go:96
+2024-08-08T19:27:01.705+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1]Server created	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:27:01.725+0800	INFO	module.grpcGateway	grpcGateway/mod.go:50	init gRPC server success...
+2024-08-08T19:27:01.725+0800	INFO	grpc	grpclog/component.go:36	[core]original dial target is: "127.0.0.1:8080"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:27:01.725+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel created	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:27:01.725+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]parsed dial target is: resolver.Target{URL:url.URL{Scheme:"dns", Opaque:"", User:(*url.Userinfo)(nil), Host:"", Path:"/127.0.0.1:8080", RawPath:"", OmitHost:false, ForceQuery:false, RawQuery:"", Fragment:"", RawFragment:""}}	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:27:01.725+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel authority set to "127.0.0.1:8080"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:27:01.725+0800	INFO	module.grpcGateway	grpcGateway/mod.go:115	init gRPC gateway success...
+2024-08-08T19:27:01.726+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1 ListenSocket #3]ListenSocket created	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:27:06.638+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Resolver state updated: {
+  "Addresses": [
+    {
+      "Addr": "127.0.0.1:8080",
+      "ServerName": "",
+      "Attributes": null,
+      "BalancerAttributes": null,
+      "Metadata": null
+    }
+  ],
+  "Endpoints": [
+    {
+      "Addresses": [
+        {
+          "Addr": "127.0.0.1:8080",
+          "ServerName": "",
+          "Attributes": null,
+          "BalancerAttributes": null,
+          "Metadata": null
+        }
+      ],
+      "Attributes": null
+    }
+  ],
+  "ServiceConfig": null,
+  "Attributes": null
+} (resolver returned new addresses)	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:27:06.638+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel switches to new LB policy "pick_first"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:27:06.638+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel created	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:27:06.638+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel Connectivity change to CONNECTING	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:27:06.638+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel exiting idle mode	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:27:06.638+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to CONNECTING	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:27:06.638+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel picks a new address "127.0.0.1:8080" to connect	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:27:26.639+0800	WARN	grpc	grpclog/component.go:41	[core][Channel #2 SubChannel #4]grpc: addrConn.createTransport failed to connect to {Addr: "127.0.0.1:8080", ServerName: "127.0.0.1:8080", }. Err: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51704->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:27:26.640+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to TRANSIENT_FAILURE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51704->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:27:26.640+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel Connectivity change to TRANSIENT_FAILURE	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:27:27.644+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to IDLE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51704->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:27:27.645+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to CONNECTING	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:27:27.645+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel picks a new address "127.0.0.1:8080" to connect	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:27:47.646+0800	WARN	grpc	grpclog/component.go:41	[core][Channel #2 SubChannel #4]grpc: addrConn.createTransport failed to connect to {Addr: "127.0.0.1:8080", ServerName: "127.0.0.1:8080", }. Err: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51723->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:27:47.647+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to TRANSIENT_FAILURE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51723->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:27:49.397+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to IDLE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51723->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:27:49.397+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to CONNECTING	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:27:49.397+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel picks a new address "127.0.0.1:8080" to connect	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:28:09.406+0800	WARN	grpc	grpclog/component.go:41	[core][Channel #2 SubChannel #4]grpc: addrConn.createTransport failed to connect to {Addr: "127.0.0.1:8080", ServerName: "127.0.0.1:8080", }. Err: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51740->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:28:09.406+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to TRANSIENT_FAILURE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51740->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:28:11.884+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to IDLE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51740->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:28:11.884+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to CONNECTING	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:28:11.884+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel picks a new address "127.0.0.1:8080" to connect	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:28:31.885+0800	WARN	grpc	grpclog/component.go:41	[core][Channel #2 SubChannel #4]grpc: addrConn.createTransport failed to connect to {Addr: "127.0.0.1:8080", ServerName: "127.0.0.1:8080", }. Err: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51747->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:28:31.885+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to TRANSIENT_FAILURE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51747->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:28:36.367+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to IDLE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51747->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:28:36.368+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to CONNECTING	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:28:36.368+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel picks a new address "127.0.0.1:8080" to connect	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:28:56.382+0800	WARN	grpc	grpclog/component.go:41	[core][Channel #2 SubChannel #4]grpc: addrConn.createTransport failed to connect to {Addr: "127.0.0.1:8080", ServerName: "127.0.0.1:8080", }. Err: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51770->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:28:56.383+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to TRANSIENT_FAILURE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51770->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:29:01.803+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to IDLE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51770->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:29:01.803+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to CONNECTING	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:29:01.803+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel picks a new address "127.0.0.1:8080" to connect	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:29:21.811+0800	WARN	grpc	grpclog/component.go:41	[core][Channel #2 SubChannel #4]grpc: addrConn.createTransport failed to connect to {Addr: "127.0.0.1:8080", ServerName: "127.0.0.1:8080", }. Err: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51783->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:29:21.811+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to TRANSIENT_FAILURE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51783->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:29:30.552+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to IDLE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51783->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:29:30.552+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to CONNECTING	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:29:30.553+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel picks a new address "127.0.0.1:8080" to connect	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:29:43.665+0800	INFO	module.ginx	ginx/mod.go:88	failed to start to listen and serve	{"error": "mux: server closed"}
+2024-08-08T19:29:43.665+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1 ListenSocket #3]ListenSocket deleted	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:29:43.665+0800	ERROR	module.ginx	kernel/kernel.go:96	mux: server closedmodule.Startginx
+grpc-template-service/core/kernel.(*Engine).StartModule.func1
+	F:/grpc-template-service/core/kernel/kernel.go:96
+2024-08-08T19:29:51.726+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1]Server created	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:29:51.756+0800	INFO	module.grpcGateway	grpcGateway/mod.go:52	init gRPC server success...
+2024-08-08T19:29:51.756+0800	INFO	grpc	grpclog/component.go:36	[core]original dial target is: "127.0.0.1:8080"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:29:51.756+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel created	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:29:51.756+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]parsed dial target is: resolver.Target{URL:url.URL{Scheme:"dns", Opaque:"", User:(*url.Userinfo)(nil), Host:"", Path:"/127.0.0.1:8080", RawPath:"", OmitHost:false, ForceQuery:false, RawQuery:"", Fragment:"", RawFragment:""}}	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:29:51.756+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel authority set to "127.0.0.1:8080"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:29:51.756+0800	INFO	module.grpcGateway	grpcGateway/mod.go:117	init gRPC gateway success...
+2024-08-08T19:29:51.756+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1 ListenSocket #3]ListenSocket created	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:29:56.276+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Resolver state updated: {
+  "Addresses": [
+    {
+      "Addr": "127.0.0.1:8080",
+      "ServerName": "",
+      "Attributes": null,
+      "BalancerAttributes": null,
+      "Metadata": null
+    }
+  ],
+  "Endpoints": [
+    {
+      "Addresses": [
+        {
+          "Addr": "127.0.0.1:8080",
+          "ServerName": "",
+          "Attributes": null,
+          "BalancerAttributes": null,
+          "Metadata": null
+        }
+      ],
+      "Attributes": null
+    }
+  ],
+  "ServiceConfig": null,
+  "Attributes": null
+} (resolver returned new addresses)	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:29:56.277+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel switches to new LB policy "pick_first"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:29:56.277+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel created	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:29:56.277+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel Connectivity change to CONNECTING	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:29:56.277+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel exiting idle mode	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:29:56.278+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to CONNECTING	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:29:56.278+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel picks a new address "127.0.0.1:8080" to connect	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:30:16.284+0800	WARN	grpc	grpclog/component.go:41	[core][Channel #2 SubChannel #4]grpc: addrConn.createTransport failed to connect to {Addr: "127.0.0.1:8080", ServerName: "127.0.0.1:8080", }. Err: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51834->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:30:16.284+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to TRANSIENT_FAILURE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51834->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:30:16.284+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel Connectivity change to TRANSIENT_FAILURE	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:30:17.299+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to IDLE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51834->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:30:17.299+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to CONNECTING	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:30:17.299+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel picks a new address "127.0.0.1:8080" to connect	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:30:37.305+0800	WARN	grpc	grpclog/component.go:41	[core][Channel #2 SubChannel #4]grpc: addrConn.createTransport failed to connect to {Addr: "127.0.0.1:8080", ServerName: "127.0.0.1:8080", }. Err: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51849->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:30:37.305+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to TRANSIENT_FAILURE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51849->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:30:38.822+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to IDLE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51849->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:30:38.822+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to CONNECTING	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:30:38.823+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel picks a new address "127.0.0.1:8080" to connect	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:30:58.825+0800	WARN	grpc	grpclog/component.go:41	[core][Channel #2 SubChannel #4]grpc: addrConn.createTransport failed to connect to {Addr: "127.0.0.1:8080", ServerName: "127.0.0.1:8080", }. Err: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51870->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:30:58.825+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to TRANSIENT_FAILURE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51870->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:31:01.427+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to IDLE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51870->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:31:01.427+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to CONNECTING	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:31:01.427+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel picks a new address "127.0.0.1:8080" to connect	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:31:21.430+0800	WARN	grpc	grpclog/component.go:41	[core][Channel #2 SubChannel #4]grpc: addrConn.createTransport failed to connect to {Addr: "127.0.0.1:8080", ServerName: "127.0.0.1:8080", }. Err: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51887->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:31:21.430+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to TRANSIENT_FAILURE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51887->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:31:25.423+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to IDLE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51887->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:31:25.423+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to CONNECTING	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:31:25.423+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel picks a new address "127.0.0.1:8080" to connect	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:31:45.436+0800	WARN	grpc	grpclog/component.go:41	[core][Channel #2 SubChannel #4]grpc: addrConn.createTransport failed to connect to {Addr: "127.0.0.1:8080", ServerName: "127.0.0.1:8080", }. Err: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51905->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:31:45.436+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to TRANSIENT_FAILURE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51905->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:31:53.170+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to IDLE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51905->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:31:53.170+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to CONNECTING	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:31:53.171+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel picks a new address "127.0.0.1:8080" to connect	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:32:13.174+0800	WARN	grpc	grpclog/component.go:41	[core][Channel #2 SubChannel #4]grpc: addrConn.createTransport failed to connect to {Addr: "127.0.0.1:8080", ServerName: "127.0.0.1:8080", }. Err: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51924->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:32:13.175+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to TRANSIENT_FAILURE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51924->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:32:22.832+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to IDLE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51924->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:32:22.832+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to CONNECTING	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:32:22.832+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel picks a new address "127.0.0.1:8080" to connect	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:32:42.834+0800	WARN	grpc	grpclog/component.go:41	[core][Channel #2 SubChannel #4]grpc: addrConn.createTransport failed to connect to {Addr: "127.0.0.1:8080", ServerName: "127.0.0.1:8080", }. Err: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51951->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:32:42.835+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to TRANSIENT_FAILURE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51951->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:32:58.279+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to IDLE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51951->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:32:58.279+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to CONNECTING	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:32:58.279+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel picks a new address "127.0.0.1:8080" to connect	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:33:29.369+0800	WARN	grpc	grpclog/component.go:41	[core][Channel #2 SubChannel #4]grpc: addrConn.createTransport failed to connect to {Addr: "127.0.0.1:8080", ServerName: "127.0.0.1:8080", }. Err: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51978->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:33:29.370+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to TRANSIENT_FAILURE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51978->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:34:00.458+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to IDLE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:51978->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:34:00.458+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to CONNECTING	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:34:00.458+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel picks a new address "127.0.0.1:8080" to connect	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:34:43.730+0800	WARN	grpc	grpclog/component.go:41	[core][Channel #2 SubChannel #4]grpc: addrConn.createTransport failed to connect to {Addr: "127.0.0.1:8080", ServerName: "127.0.0.1:8080", }. Err: connection error: desc = "error reading server preface: read tcp 127.0.0.1:52071->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:34:43.731+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to TRANSIENT_FAILURE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:52071->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:35:26.994+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to IDLE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:52071->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:35:26.994+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to CONNECTING	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:35:26.994+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel picks a new address "127.0.0.1:8080" to connect	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:36:43.345+0800	WARN	grpc	grpclog/component.go:41	[core][Channel #2 SubChannel #4]grpc: addrConn.createTransport failed to connect to {Addr: "127.0.0.1:8080", ServerName: "127.0.0.1:8080", }. Err: connection error: desc = "error reading server preface: read tcp 127.0.0.1:52154->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:36:43.345+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to TRANSIENT_FAILURE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:52154->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:37:04.348+0800	INFO	module.ginx	ginx/mod.go:88	failed to start to listen and serve	{"error": "mux: server closed"}
+2024-08-08T19:37:04.348+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1 ListenSocket #3]ListenSocket deleted	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:37:04.348+0800	ERROR	module.ginx	kernel/kernel.go:96	mux: server closedmodule.Startginx
+grpc-template-service/core/kernel.(*Engine).StartModule.func1
+	F:/grpc-template-service/core/kernel/kernel.go:96
+2024-08-08T19:37:11.848+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1]Server created	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:37:11.865+0800	INFO	module.grpcGateway	grpcGateway/mod.go:50	init gRPC server success...
+2024-08-08T19:37:11.865+0800	INFO	grpc	grpclog/component.go:36	[core]original dial target is: "0.0.0.0:8080"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:37:11.865+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel created	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:37:11.865+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]parsed dial target is: resolver.Target{URL:url.URL{Scheme:"dns", Opaque:"", User:(*url.Userinfo)(nil), Host:"", Path:"/0.0.0.0:8080", RawPath:"", OmitHost:false, ForceQuery:false, RawQuery:"", Fragment:"", RawFragment:""}}	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:37:11.865+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel authority set to "0.0.0.0:8080"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:37:11.865+0800	INFO	module.grpcGateway	grpcGateway/mod.go:110	init gRPC gateway success...
+2024-08-08T19:37:11.925+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1 ListenSocket #3]ListenSocket created	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:37:13.735+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Resolver state updated: {
+  "Addresses": [
+    {
+      "Addr": "0.0.0.0:8080",
+      "ServerName": "",
+      "Attributes": null,
+      "BalancerAttributes": null,
+      "Metadata": null
+    }
+  ],
+  "Endpoints": [
+    {
+      "Addresses": [
+        {
+          "Addr": "0.0.0.0:8080",
+          "ServerName": "",
+          "Attributes": null,
+          "BalancerAttributes": null,
+          "Metadata": null
+        }
+      ],
+      "Attributes": null
+    }
+  ],
+  "ServiceConfig": null,
+  "Attributes": null
+} (resolver returned new addresses)	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:37:13.735+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel switches to new LB policy "pick_first"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:37:13.735+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel created	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:37:13.735+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel Connectivity change to CONNECTING	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:37:13.735+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel exiting idle mode	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:37:13.735+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to CONNECTING	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:37:13.735+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel picks a new address "0.0.0.0:8080" to connect	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:37:33.744+0800	WARN	grpc	grpclog/component.go:41	[core][Channel #2 SubChannel #4]grpc: addrConn.createTransport failed to connect to {Addr: "0.0.0.0:8080", ServerName: "0.0.0.0:8080", }. Err: connection error: desc = "error reading server preface: read tcp 127.0.0.1:52216->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:37:33.744+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to TRANSIENT_FAILURE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:52216->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:37:33.744+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel Connectivity change to TRANSIENT_FAILURE	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:37:34.758+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to IDLE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:52216->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:37:34.759+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to CONNECTING	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:37:34.759+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel picks a new address "0.0.0.0:8080" to connect	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:37:54.763+0800	WARN	grpc	grpclog/component.go:41	[core][Channel #2 SubChannel #4]grpc: addrConn.createTransport failed to connect to {Addr: "0.0.0.0:8080", ServerName: "0.0.0.0:8080", }. Err: connection error: desc = "error reading server preface: read tcp 127.0.0.1:52237->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:37:54.763+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to TRANSIENT_FAILURE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:52237->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:37:56.134+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to IDLE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:52237->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:37:56.134+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to CONNECTING	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:37:56.134+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel picks a new address "0.0.0.0:8080" to connect	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:38:16.149+0800	WARN	grpc	grpclog/component.go:41	[core][Channel #2 SubChannel #4]grpc: addrConn.createTransport failed to connect to {Addr: "0.0.0.0:8080", ServerName: "0.0.0.0:8080", }. Err: connection error: desc = "error reading server preface: read tcp 127.0.0.1:52252->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:38:16.150+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to TRANSIENT_FAILURE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:52252->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:38:18.318+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to IDLE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:52252->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:38:18.318+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to CONNECTING	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:38:18.318+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel picks a new address "0.0.0.0:8080" to connect	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:38:38.327+0800	WARN	grpc	grpclog/component.go:41	[core][Channel #2 SubChannel #4]grpc: addrConn.createTransport failed to connect to {Addr: "0.0.0.0:8080", ServerName: "0.0.0.0:8080", }. Err: connection error: desc = "error reading server preface: read tcp 127.0.0.1:52261->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:38:38.328+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to TRANSIENT_FAILURE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:52261->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:38:41.682+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to IDLE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:52261->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:38:41.682+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to CONNECTING	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:38:41.682+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel picks a new address "0.0.0.0:8080" to connect	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:39:01.694+0800	WARN	grpc	grpclog/component.go:41	[core][Channel #2 SubChannel #4]grpc: addrConn.createTransport failed to connect to {Addr: "0.0.0.0:8080", ServerName: "0.0.0.0:8080", }. Err: connection error: desc = "error reading server preface: read tcp 127.0.0.1:52280->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:39:01.694+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to TRANSIENT_FAILURE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:52280->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:39:09.364+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to IDLE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:52280->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:39:09.364+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to CONNECTING	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:39:09.364+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel picks a new address "0.0.0.0:8080" to connect	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:39:29.377+0800	WARN	grpc	grpclog/component.go:41	[core][Channel #2 SubChannel #4]grpc: addrConn.createTransport failed to connect to {Addr: "0.0.0.0:8080", ServerName: "0.0.0.0:8080", }. Err: connection error: desc = "error reading server preface: read tcp 127.0.0.1:52320->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:39:29.378+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to TRANSIENT_FAILURE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:52320->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:39:40.747+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to IDLE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:52320->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:39:40.748+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to CONNECTING	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:39:40.748+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel picks a new address "0.0.0.0:8080" to connect	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:40:00.759+0800	WARN	grpc	grpclog/component.go:41	[core][Channel #2 SubChannel #4]grpc: addrConn.createTransport failed to connect to {Addr: "0.0.0.0:8080", ServerName: "0.0.0.0:8080", }. Err: connection error: desc = "error reading server preface: read tcp 127.0.0.1:52347->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:40:00.760+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to TRANSIENT_FAILURE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:52347->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:40:20.578+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to IDLE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:52347->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:40:20.578+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to CONNECTING	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:40:20.578+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel picks a new address "0.0.0.0:8080" to connect	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:40:51.935+0800	WARN	grpc	grpclog/component.go:41	[core][Channel #2 SubChannel #4]grpc: addrConn.createTransport failed to connect to {Addr: "0.0.0.0:8080", ServerName: "0.0.0.0:8080", }. Err: connection error: desc = "error reading server preface: read tcp 127.0.0.1:52392->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:40:51.935+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to TRANSIENT_FAILURE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:52392->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:41:23.277+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to IDLE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:52392->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:41:23.278+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to CONNECTING	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:41:23.278+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel picks a new address "0.0.0.0:8080" to connect	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:42:11.722+0800	WARN	grpc	grpclog/component.go:41	[core][Channel #2 SubChannel #4]grpc: addrConn.createTransport failed to connect to {Addr: "0.0.0.0:8080", ServerName: "0.0.0.0:8080", }. Err: connection error: desc = "error reading server preface: read tcp 127.0.0.1:52437->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:42:11.722+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to TRANSIENT_FAILURE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:52437->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:43:00.178+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to IDLE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:52437->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:43:00.178+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to CONNECTING	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:43:00.178+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel picks a new address "0.0.0.0:8080" to connect	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:44:10.530+0800	WARN	grpc	grpclog/component.go:41	[core][Channel #2 SubChannel #4]grpc: addrConn.createTransport failed to connect to {Addr: "0.0.0.0:8080", ServerName: "0.0.0.0:8080", }. Err: connection error: desc = "error reading server preface: read tcp 127.0.0.1:52551->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:44:10.531+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2 SubChannel #4]Subchannel Connectivity change to TRANSIENT_FAILURE, last error: connection error: desc = "error reading server preface: read tcp 127.0.0.1:52551->127.0.0.1:8080: use of closed network connection"	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:45:08.205+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1 ListenSocket #3]ListenSocket deleted	{"system": "grpc", "grpc_log": true}
+2024-08-08T19:45:08.205+0800	INFO	module.ginx	ginx/mod.go:88	failed to start to listen and serve	{"error": "mux: server closed"}
+2024-08-08T19:49:47.521+0800	INFO	module.ginx	ginx/mod.go:73	failed to start to listen and serve	{"error": "mux: server closed"}
+2024-08-08T20:02:36.465+0800	ERROR	module.ginx	kernel/kernel.go:96	mux: server closedmodule.Startginx
+grpc-template-service/core/kernel.(*Engine).StartModule.func1
+	F:/grpc-template-service/core/kernel/kernel.go:96

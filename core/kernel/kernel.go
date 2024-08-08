@@ -56,7 +56,7 @@ func (e *Engine) StartModule() error {
 		h4m := hub
 		h4m.Log = logx.NameSpace("module." + mod.Name())
 		if err := mod.PreInit(&h4m); err != nil {
-			h4m.Log.Error(err)
+			h4m.Log.Error(err, "module.PreInit", mod.Name())
 			panic(err)
 		}
 	}
@@ -65,7 +65,7 @@ func (e *Engine) StartModule() error {
 		h4m := hub
 		h4m.Log = logx.NameSpace("module." + mod.Name())
 		if err := mod.Init(&h4m); err != nil {
-			h4m.Log.Error(err)
+			h4m.Log.Error(err, "module.Init", mod.Name())
 			panic(err)
 		}
 	}
@@ -74,7 +74,7 @@ func (e *Engine) StartModule() error {
 		h4m := hub
 		h4m.Log = logx.NameSpace("module." + mod.Name())
 		if err := mod.PostInit(&h4m); err != nil {
-			h4m.Log.Error(err)
+			h4m.Log.Error(err, "module.PostInit", mod.Name())
 			panic(err)
 		}
 	}
@@ -83,7 +83,7 @@ func (e *Engine) StartModule() error {
 		h4m := hub
 		h4m.Log = logx.NameSpace("module." + mod.Name())
 		if err := mod.Load(&h4m); err != nil {
-			h4m.Log.Error(err)
+			h4m.Log.Error(err, "module.Load", mod.Name())
 			panic(err)
 		}
 	}
@@ -93,7 +93,7 @@ func (e *Engine) StartModule() error {
 			h4m := hub
 			h4m.Log = logx.NameSpace("module." + mod.Name())
 			if err := mod.Start(&h4m); err != nil {
-				h4m.Log.Error(err)
+				h4m.Log.Error(err, "module.Start", mod.Name())
 				panic(err)
 			}
 		}(mod)

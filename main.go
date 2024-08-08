@@ -6,4 +6,5 @@ import (
 
 func main() {
 	cmd.Execute()
+	//fmt.Println("Hello, World!")
 }
