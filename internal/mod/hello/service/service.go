@@ -24,5 +24,3 @@ func (s *S) SayHelloAgain(_ context.Context, in *helloV1.SayHelloAgainRequest) (
 func (s *S) SayHelloThirdly(_ context.Context, in *helloV1.SayHelloThirdlyRequest) (*helloV1.SayHelloThirdlyResponse, error) {
 	return &helloV1.SayHelloThirdlyResponse{Message: in.Name + " world thirdly"}, nil
 }
-
-//

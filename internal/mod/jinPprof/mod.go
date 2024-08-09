@@ -1,4 +1,4 @@
-package ginPprof
+package jinPprof
 
 import (
 	"encoding/base64"

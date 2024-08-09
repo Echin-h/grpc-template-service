@@ -3,13 +3,14 @@ module grpc-template-service
 go 1.22
 
 require (
+	github.com/Echin-h/grpc-template-proto v1.0.1
 	github.com/fsnotify/fsnotify v1.7.0
-	github.com/gin-contrib/cors v1.7.2
 	github.com/gin-gonic/gin v1.10.0
 	github.com/golang-jwt/jwt v3.2.2+incompatible
 	github.com/grpc-ecosystem/go-grpc-middleware v1.4.0
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.21.0
 	github.com/juanjiTech/inject/v2 v2.0.1
+	github.com/juanjiTech/jin v0.0.0-20240610131617-93c79097b509
 	github.com/soheilhy/cmux v0.1.5
 	github.com/spf13/cobra v1.8.1
 	github.com/spf13/viper v1.19.0
@@ -22,8 +23,6 @@ require (
 )
 
 require (
-	github.com/Echin-h/gRPC-template-proto v1.0.0 // indirect
-	github.com/Echin-h/grpc-template-proto v1.0.1 // indirect
 	github.com/bytedance/sonic v1.12.1 // indirect
 	github.com/bytedance/sonic/loader v0.2.0 // indirect
 	github.com/cloudwego/base64x v0.1.4 // indirect
@@ -75,4 +74,5 @@ require (
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20240805194559-2c9e96a0b5d4 // indirect
 	google.golang.org/protobuf v1.34.2 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
+	gopkg.in/yaml.v2 v2.4.0 // indirect
 )

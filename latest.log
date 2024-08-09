@@ -1170,3 +1170,54 @@ grpc-template-service/core/kernel.(*Engine).StartModule.func1
 2024-08-08T20:02:36.465+0800	ERROR	module.ginx	kernel/kernel.go:96	mux: server closedmodule.Startginx
 grpc-template-service/core/kernel.(*Engine).StartModule.func1
 	F:/grpc-template-service/core/kernel/kernel.go:96
+2024-08-09T13:42:29.861+0800	ERROR	module.ginx	kernel/kernel.go:96	mux: server closedmodule.Startginx
+grpc-template-service/core/kernel.(*Engine).StartModule.func1
+	F:/grpc-template-service/core/kernel/kernel.go:96
+2024-08-09T13:49:31.140+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1]Server created	{"system": "grpc", "grpc_log": true}
+2024-08-09T13:49:31.159+0800	INFO	module.grpcGateway	grpcGateway/mod.go:53	init gRPC server success...
+2024-08-09T13:49:31.159+0800	INFO	grpc	grpclog/component.go:36	[core]original dial target is: "127.0.0.1:8080"	{"system": "grpc", "grpc_log": true}
+2024-08-09T13:49:31.159+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel created	{"system": "grpc", "grpc_log": true}
+2024-08-09T13:49:31.159+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]parsed dial target is: resolver.Target{URL:url.URL{Scheme:"dns", Opaque:"", User:(*url.Userinfo)(nil), Host:"", Path:"/127.0.0.1:8080", RawPath:"", OmitHost:false, ForceQuery:false, RawQuery:"", Fragment:"", RawFragment:""}}	{"system": "grpc", "grpc_log": true}
+2024-08-09T13:49:31.160+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel authority set to "127.0.0.1:8080"	{"system": "grpc", "grpc_log": true}
+2024-08-09T13:49:31.161+0800	INFO	module.grpcGateway	grpcGateway/mod.go:104	init gRPC gateway success...
+2024-08-09T13:49:31.162+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1 ListenSocket #3]ListenSocket created	{"system": "grpc", "grpc_log": true}
+2024-08-09T13:53:04.405+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1]Server created	{"system": "grpc", "grpc_log": true}
+2024-08-09T13:53:04.424+0800	INFO	module.grpcGateway	grpcGateway/mod.go:53	init gRPC server success...
+2024-08-09T13:53:04.424+0800	INFO	grpc	grpclog/component.go:36	[core]original dial target is: "127.0.0.1:8080"	{"system": "grpc", "grpc_log": true}
+2024-08-09T13:53:04.424+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel created	{"system": "grpc", "grpc_log": true}
+2024-08-09T13:53:04.424+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]parsed dial target is: resolver.Target{URL:url.URL{Scheme:"dns", Opaque:"", User:(*url.Userinfo)(nil), Host:"", Path:"/127.0.0.1:8080", RawPath:"", OmitHost:false, ForceQuery:false, RawQuery:"", Fragment:"", RawFragment:""}}	{"system": "grpc", "grpc_log": true}
+2024-08-09T13:53:04.424+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel authority set to "127.0.0.1:8080"	{"system": "grpc", "grpc_log": true}
+2024-08-09T13:53:04.424+0800	INFO	module.grpcGateway	grpcGateway/mod.go:104	init gRPC gateway success...
+2024-08-09T13:53:04.425+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1 ListenSocket #3]ListenSocket created	{"system": "grpc", "grpc_log": true}
+2024-08-09T13:54:50.398+0800	INFO	module.jinx	jinx/mod.go:74	failed to start to listen and serve	{"error": "mux: server closed"}
+2024-08-09T13:54:50.398+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1 ListenSocket #3]ListenSocket deleted	{"system": "grpc", "grpc_log": true}
+2024-08-09T13:56:46.949+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1 ListenSocket #3]ListenSocket deleted	{"system": "grpc", "grpc_log": true}
+2024-08-09T13:57:23.851+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1]Server created	{"system": "grpc", "grpc_log": true}
+2024-08-09T13:57:23.870+0800	INFO	module.grpcGateway	grpcGateway/mod.go:53	init gRPC server success...
+2024-08-09T13:57:23.870+0800	INFO	grpc	grpclog/component.go:36	[core]original dial target is: "127.0.0.1:8080"	{"system": "grpc", "grpc_log": true}
+2024-08-09T13:57:23.872+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel created	{"system": "grpc", "grpc_log": true}
+2024-08-09T13:57:23.872+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]parsed dial target is: resolver.Target{URL:url.URL{Scheme:"dns", Opaque:"", User:(*url.Userinfo)(nil), Host:"", Path:"/127.0.0.1:8080", RawPath:"", OmitHost:false, ForceQuery:false, RawQuery:"", Fragment:"", RawFragment:""}}	{"system": "grpc", "grpc_log": true}
+2024-08-09T13:57:23.872+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel authority set to "127.0.0.1:8080"	{"system": "grpc", "grpc_log": true}
+2024-08-09T13:57:23.872+0800	INFO	module.grpcGateway	grpcGateway/mod.go:104	init gRPC gateway success...
+2024-08-09T13:57:46.280+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1 ListenSocket #3]ListenSocket created	{"system": "grpc", "grpc_log": true}
+2024-08-09T13:58:22.810+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1 ListenSocket #3]ListenSocket deleted	{"system": "grpc", "grpc_log": true}
+2024-08-09T13:58:22.810+0800	INFO	module.jinx	jinx/mod.go:74	failed to start to listen and serve	{"error": "mux: server closed"}
+2024-08-09T13:58:27.689+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1]Server created	{"system": "grpc", "grpc_log": true}
+2024-08-09T13:58:27.710+0800	INFO	module.grpcGateway	grpcGateway/mod.go:53	init gRPC server success...
+2024-08-09T13:58:27.710+0800	INFO	grpc	grpclog/component.go:36	[core]original dial target is: "127.0.0.1:8080"	{"system": "grpc", "grpc_log": true}
+2024-08-09T13:58:27.710+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel created	{"system": "grpc", "grpc_log": true}
+2024-08-09T13:58:27.710+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]parsed dial target is: resolver.Target{URL:url.URL{Scheme:"dns", Opaque:"", User:(*url.Userinfo)(nil), Host:"", Path:"/127.0.0.1:8080", RawPath:"", OmitHost:false, ForceQuery:false, RawQuery:"", Fragment:"", RawFragment:""}}	{"system": "grpc", "grpc_log": true}
+2024-08-09T13:58:27.710+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel authority set to "127.0.0.1:8080"	{"system": "grpc", "grpc_log": true}
+2024-08-09T13:58:27.710+0800	INFO	module.grpcGateway	grpcGateway/mod.go:104	init gRPC gateway success...
+2024-08-09T13:58:28.948+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1 ListenSocket #3]ListenSocket created	{"system": "grpc", "grpc_log": true}
+2024-08-09T14:00:22.187+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1 ListenSocket #3]ListenSocket deleted	{"system": "grpc", "grpc_log": true}
+2024-08-09T14:00:22.187+0800	INFO	module.jinx	jinx/mod.go:74	failed to start to listen and serve	{"error": "mux: server closed"}
+2024-08-09T14:00:29.400+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1]Server created	{"system": "grpc", "grpc_log": true}
+2024-08-09T14:00:29.426+0800	INFO	module.grpcGateway	grpcGateway/mod.go:53	init gRPC server success...
+2024-08-09T14:00:29.426+0800	INFO	grpc	grpclog/component.go:36	[core]original dial target is: "127.0.0.1:8080"	{"system": "grpc", "grpc_log": true}
+2024-08-09T14:00:29.427+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel created	{"system": "grpc", "grpc_log": true}
+2024-08-09T14:00:29.427+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]parsed dial target is: resolver.Target{URL:url.URL{Scheme:"dns", Opaque:"", User:(*url.Userinfo)(nil), Host:"", Path:"/127.0.0.1:8080", RawPath:"", OmitHost:false, ForceQuery:false, RawQuery:"", Fragment:"", RawFragment:""}}	{"system": "grpc", "grpc_log": true}
+2024-08-09T14:00:29.427+0800	INFO	grpc	grpclog/component.go:36	[core][Channel #2]Channel authority set to "127.0.0.1:8080"	{"system": "grpc", "grpc_log": true}
+2024-08-09T14:00:29.427+0800	INFO	module.grpcGateway	grpcGateway/mod.go:104	init gRPC gateway success...
+2024-08-09T14:00:29.427+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1 ListenSocket #3]ListenSocket created	{"system": "grpc", "grpc_log": true}
+2024-08-09T14:06:34.233+0800	INFO	grpc	grpclog/component.go:36	[core][Server #1 ListenSocket #3]ListenSocket deleted	{"system": "grpc", "grpc_log": true}

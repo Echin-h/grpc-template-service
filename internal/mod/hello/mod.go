@@ -2,11 +2,13 @@ package hello
 
 import (
 	"errors"
+	"fmt"
 	helloV1 "github.com/Echin-h/grpc-template-proto/gen/proto/hello/v1"
 	"google.golang.org/grpc"
 	"grpc-template-service/core/kernel"
 	"grpc-template-service/internal/mod/grpcGateway/gateway"
 	"grpc-template-service/internal/mod/hello/service"
+	"grpc-template-service/pkg/colorful"
 )
 
 var _ kernel.Module = (*Mod)(nil)
@@ -31,6 +33,7 @@ func (m *Mod) Load(hub *kernel.Hub) error {
 		Log: hub.Log.Named("hello.service"),
 	})
 	err := gw.Register(helloV1.RegisterGreeterServiceHandler)
+	fmt.Println(colorful.Green("hello service Loaded successfully"))
 	if err != nil {
 		hub.Log.Fatalw("failed to register", "error", err)
 	}
