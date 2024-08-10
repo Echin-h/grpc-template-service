@@ -1,0 +1,34 @@
+version: '3'
+
+services:
+  grpc-template-service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: grpc-template-service
+    #    restart: always
+    volumes:
+      - ./config:/Serve/config
+    ports:
+      - "19080:8080"
+  grpc-template-service-rds:
+    image: redis
+    container_name: grpc-template-service-rds
+    ports:
+      - "6379:6379"
+    environment:
+      - REDIS_PASSWORD=
+      - REDIS_DATABASE=0
+      - REDIS_ADDRESS=127.0.0.1
+
+  grpc-template-service-postgres:
+    image: bitnami/postgresql:latest
+    container_name: grpc-template-service-postgres
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRESQL_ADDRESS=127.0.0.1
+      - POSTGRESQL_USERNAME=grpc-template-service
+      - POSTGRESQL_PASSWORD=123456
+      - USE_SSL=disable
+      - DEBUG=false

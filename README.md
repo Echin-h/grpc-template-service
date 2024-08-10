@@ -10,13 +10,18 @@ you can access the route by `http://localhost:8080/v1/*any`
 meanwhile, this framework is composed of mods, you can add your own mods to the framework.
 
 ### 2. Quick Start
+create pgsql and redis
+```shell
+docker-compose -f docker-compose.yml up -d
+```
+
 create config
 ```shell
 go run main.go -c config.yaml
 ```
 create mod 
 ```shell
-go run main.go -m modName
+go run main.go -n modName
 ```
 run server
 ```shell

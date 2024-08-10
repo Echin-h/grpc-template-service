@@ -9,16 +9,16 @@ Log:
         AccessToken: ""
         TopicID: ""
 Postgres:
-    Addr: "127.0.0.1"
-    Port: "5432"
-    User: "grpc-template-service"
-    Password: "123456"
-    Database: "grpc-template-service"
-    UseSSL: "disable"
+    Addr: ""
+    Port: ""
+    User: ""
+    Password: ""
+    Database: ""
+    UseTLS: false
     Debug: false
 Redis:
-    Addr: "127.0.0.1"
-    Port: "5432"
+    Addr: ""
+    Port: ""
     Password: ""
     Db: 0
 B2:
