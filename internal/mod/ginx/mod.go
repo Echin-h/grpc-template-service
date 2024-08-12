@@ -1,15 +1,15 @@
-package jinx
+package ginx
 
 import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/juanjiTech/jin"
-	"github.com/juanjiTech/jin/middleware/cors"
+	"github.com/gin-gonic/gin"
 	"github.com/soheilhy/cmux"
+	"grpc-template-service/conf"
 	"grpc-template-service/core/kernel"
+	"grpc-template-service/internal/mod/ginx/middleware"
 	"grpc-template-service/pkg/colorful"
-
 	"net"
 	"net/http"
 	"sync"
@@ -22,38 +22,46 @@ type Mod struct {
 	kernel.UnimplementedModule // 请为所有Module引入UnimplementedModule
 
 	listener net.Listener
-	j        *jin.Engine
+	g        *gin.Engine
 	httpSrv  *http.Server
 }
 
 func (m *Mod) Name() string {
-	return "jinx"
+	return "ginx"
 }
 
 func (m *Mod) Init(hub *kernel.Hub) error {
-	m.j = jin.New()
-	corsConf := cors.DefaultConfig()
-	corsConf.AllowAllOrigins = true
-	corsConf.AllowCredentials = true
-	corsConf.AddAllowHeaders("Authorization")
-	m.j.Use(
-		jin.Recovery(),
-		cors.New(corsConf),
+	m.g = gin.New()
+	// TODO: cors
+
+	if conf.Get().MODE == "" {
+		gin.SetMode("debug")
+	} else {
+		gin.SetMode(conf.Get().MODE)
+	}
+
+	m.g.Use(
+		gin.Recovery(),
+		gin.Logger(),
+		//otelgin.Middleware("grpc-template-service"),
+		middleware.Trace(),
 	)
+
 	//if conf.Get().SentryDsn != "" {
 	//	m.j.Use(sentryjin.New(sentryjin.Options{Repanic: true}))
 	//}
 
-	hub.Map(m.j)
+	hub.Map(m.g)
 	return nil
 }
 
 func (m *Mod) Load(hub *kernel.Hub) error {
-	var jinE jin.Engine
-	err := hub.Load(&jinE)
+	var ginE gin.Engine
+	err := hub.Load(&ginE)
 	if err != nil {
 		return errors.New("can't load jin.Engine from kernel")
 	}
+	fmt.Println(colorful.Green("jin.Engine Loaded successfully"))
 	return nil
 }
 
@@ -67,7 +75,7 @@ func (m *Mod) Start(hub *kernel.Hub) error {
 	httpL := tcpMux.Match(cmux.HTTP1Fast())
 	m.listener = httpL
 	m.httpSrv = &http.Server{
-		Handler: m.j,
+		Handler: m.g,
 	}
 
 	if err := m.httpSrv.Serve(httpL); err != nil && !errors.Is(err, http.ErrServerClosed) {

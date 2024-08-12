@@ -1,9 +1,7 @@
 package {{.modName}}
 
 import (
-	"context"
 	"grpc-template-service/core/kernel"
-	"sync"
 )
 
 var _ kernel.Module = (*Mod)(nil)

@@ -39,4 +39,11 @@ type GlobalConfig struct {
 		ClientSecret    string `yaml:"ClientSecret"`
 		OauthFinishPath string `yaml:"OauthFinishPath"`
 	}
+	Otel struct {
+		Enable         bool   `yaml:"Enable"`
+		ServiceName    string `yaml:"ServiceName"`
+		ServiceVersion string `yaml:"ServiceVersion"`
+		AgentHost      string `yaml:"AgentHost"`
+		AgentPort      string `yaml:"AgentPort"`
+	}
 }

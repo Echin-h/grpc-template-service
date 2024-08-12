@@ -30,3 +30,9 @@ hduhelp:
     ClientID: ""
     ClientSecret: ""
     OauthFinishPath: ""
+OTel:
+    Enable: false
+    ServiceName: "grpc-template-service"
+    ServiceVersion: "v1.0.0"
+    AgentHost: "127.0.0.1"
+    AgentPort: "4318"

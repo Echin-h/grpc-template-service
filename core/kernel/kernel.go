@@ -3,7 +3,6 @@ package kernel
 import (
 	"context"
 	"github.com/juanjiTech/inject/v2"
-	"grpc-template-service/conf"
 	"grpc-template-service/core/logx"
 	"net"
 	"sync"
@@ -15,7 +14,7 @@ type Engine struct {
 	Ctx    context.Context
 	Cancel context.CancelFunc
 
-	ConfigListener []func(*conf.GlobalConfig)
+	//ConfigListener []func(*conf.GlobalConfig)
 
 	listener net.Listener
 

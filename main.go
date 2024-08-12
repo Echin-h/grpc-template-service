@@ -1,8 +1,6 @@
 package main
 
-import (
-	"grpc-template-service/cmd"
-)
+import "grpc-template-service/cmd"
 
 func main() {
 	cmd.Execute()

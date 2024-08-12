@@ -1,5 +1,9 @@
 version: '3'
 
+networks:
+    grpc-template-net:
+        driver: bridge
+
 services:
   grpc-template-service:
     build:

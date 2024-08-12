@@ -4,6 +4,7 @@ import (
 	"context"
 	"errors"
 	"fmt"
+	"github.com/gin-gonic/gin"
 	grpcMiddleware "github.com/grpc-ecosystem/go-grpc-middleware"
 	grpcAuth "github.com/grpc-ecosystem/go-grpc-middleware/auth"
 	grpcZap "github.com/grpc-ecosystem/go-grpc-middleware/logging/zap"
@@ -11,7 +12,6 @@ import (
 	grpcCtxTags "github.com/grpc-ecosystem/go-grpc-middleware/tags"
 	grpcOpentracing "github.com/grpc-ecosystem/go-grpc-middleware/tracing/opentracing"
 	"github.com/grpc-ecosystem/grpc-gateway/v2/runtime"
-	"github.com/juanjiTech/jin"
 	"github.com/soheilhy/cmux"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
@@ -91,19 +91,26 @@ func (m *Mod) PostInit(h *kernel.Hub) error {
 		runtime.WithErrorHandler(runtime.DefaultHTTPErrorHandler),
 	)
 
-	var http jin.Engine
+	var http gin.Engine
 	err = h.Load(&http)
 	if err != nil {
 		return errors.New("can't load jin from kernel")
 	}
 
-	http.Any("/v1/*any", mux.ServeHTTP)
+	http.Any("/v1/*any", func(c *gin.Context) {
+		mux.ServeHTTP(c.Writer, c.Request)
+	})
 	m.gw = &gateway.Gateway{
 		Mux:  mux,
 		Conn: conn,
 	}
 	h.Log.Info("init gRPC gateway success...")
 	h.Map(m.gw)
+	return nil
+}
+
+func (m *Mod) Load(h *kernel.Hub) error {
+	fmt.Println(colorful.Green("grpcGateway service Loaded successfully"))
 	return nil
 }
 

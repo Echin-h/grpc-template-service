@@ -1,0 +1,60 @@
+version: "2.4"
+
+networks:
+  grpc-template-net:
+    driver: bridge
+
+services:
+  grafana:
+    image: grafana/grafana:latest
+    container_name: grpc-template-grafana
+    environment:
+      - GF_PATHS_PROVISIONING=/etc/grafana/provisioning
+      - GF_AUTH_ANONYMOUS_ENABLED=true
+      - GF_AUTH_ANONYMOUS_ORG_ROLE=Admin
+    ports:
+      - 3000:3000
+    command: -config /etc/grafana/grafana.ini
+    networks:
+      - grpc-template-net
+
+  minio:
+    image: minio/minio:latest
+    container_name: grpc-template-minio
+    environment:
+      - MINIO_ACCESS_KEY=superuser
+      - MINIO_SECRET_KEY=supersecret
+    ports:
+      - "9001:9001"
+    entrypoint:
+      - sh
+      - -euc
+      - |
+        mkdir -p /data/loki-data && \
+        mkdir -p /data/loki-ruler && \
+        mkdir -p /data/tempo && \
+        minio server /data --console-address ':9001'
+    volumes:
+      - ./otel/.data/minio:/data
+    networks:
+      - grpc-template-net
+
+  tempo:
+    image: grafana/tempo:latest
+    container_name: grpc-template-tempo
+    command: [ "-config.file=/etc/tempo.yaml" ]
+    volumes:
+      - ./otel/tempo.yaml:/etc/tempo.yaml
+      - ./otel/.data/tempo:/tmp/tempo
+    ports:
+#      - "14268:14268"  # jaeger ingest
+      - "3200:3200"   # tempo
+      - "4317:4317"  # otlp grpc
+      - "4318:4318"  # otlp http
+#      - "9411:9411"   # zipkin
+    restart: on-failure
+    depends_on:
+      - minio
+    networks:
+      - grpc-template-net
+
