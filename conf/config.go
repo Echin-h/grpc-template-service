@@ -16,8 +16,9 @@ var serverConfig = &GlobalConfig{}
 func LoadConfig(configPath ...string) {
 	if len(configPath) == 0 || configPath[0] == "" {
 		viper.SetConfigName("config")
+		viper.SetConfigType("yaml")
 		viper.AddConfigPath(".")
-		viper.AddConfigPath("./config")
+		viper.AddConfigPath("./conf")
 	} else {
 		viper.SetConfigName(configPath[0])
 	}

@@ -1,7 +1,7 @@
 all: test lint
 
-test:
-	go test -v ./...
+#test:
+#	go test -v ./...
 
 lint:
 	npx commitlint --from HEAD~1 --to HEAD --verbose

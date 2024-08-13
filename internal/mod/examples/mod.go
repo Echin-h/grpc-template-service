@@ -19,17 +19,7 @@ func (m *Mod) PreInit(hub *kernel.Hub) error { return nil }
 func (m *Mod) Init(hub *kernel.Hub) error { return nil }
 
 func (m *Mod) Load(hub *kernel.Hub) error {
-	//var dbs *redis.Client
-	//if hub.Load(&dbs) != nil {
-	//	return errors.New("can't load redis client from kernel")
-	//}
-	//var db *redis.Client
-	//if hub.Load(&db) != nil {
-	//	return errors.New("can't load redis client from kernel")
-	//}
-	//if err := dao.Init(db, rdb); err != nil {
-	//	return err
-	//}
+	return nil
 }
 
 func (m *Mod) Start(hub *kernel.Hub) error { return nil }
