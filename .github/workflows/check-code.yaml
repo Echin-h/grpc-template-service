@@ -1,0 +1,29 @@
+name: check-code
+
+env:
+  TESTCONTAINERS_RYUK_DISABLED: true
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: 1.22
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18  # 改成一个有效的 LTS 版本
+
+      - name: Run make lint-install
+        run: make lint-install
+
+      - name: Run make lint
+        run: make lint
