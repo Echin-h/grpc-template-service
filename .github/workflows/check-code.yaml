@@ -1,5 +1,8 @@
 name: check-code
 
+on:
+  workflow_call:
+
 env:
   TESTCONTAINERS_RYUK_DISABLED: true
 
