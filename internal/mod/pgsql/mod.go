@@ -7,6 +7,7 @@ import (
 	"gorm.io/gorm"
 	"grpc-template-service/conf"
 	"grpc-template-service/core/kernel"
+	"grpc-template-service/pkg/colorful"
 )
 
 var _ kernel.Module = (*Mod)(nil)
@@ -41,5 +42,15 @@ func (m *Mod) Init(hub *kernel.Hub) error {
 	if result.Error != nil {
 		return result.Error
 	}
+	return nil
+}
+
+func (m *Mod) Load(hub *kernel.Hub) error {
+	var db *gorm.DB
+	if err := hub.Load(&db); err != nil {
+		return errors.New("can't load gorm from kernel")
+	}
+
+	fmt.Println(colorful.Green("pgsql service Loaded successfully"))
 	return nil
 }
