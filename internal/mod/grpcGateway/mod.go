@@ -13,6 +13,7 @@ import (
 	grpcOpentracing "github.com/grpc-ecosystem/go-grpc-middleware/tracing/opentracing"
 	"github.com/grpc-ecosystem/grpc-gateway/v2/runtime"
 	"github.com/soheilhy/cmux"
+	"go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 	"google.golang.org/grpc/reflection"
@@ -43,13 +44,14 @@ func (m *Mod) Name() string {
 
 func (m *Mod) PreInit(hub *kernel.Hub) error {
 	grpcZap.ReplaceGrpcLoggerV2(logx.NameSpace("grpc").Desugar())
-	m.grpc = grpc.NewServer(grpc.UnaryInterceptor(grpcMiddleware.ChainUnaryServer(
-		grpcCtxTags.UnaryServerInterceptor(),
-		grpcOpentracing.UnaryServerInterceptor(),
-		grpcZap.UnaryServerInterceptor(logx.NameSpace("grpc").Desugar()),
-		grpcRecovery.UnaryServerInterceptor(),
-		grpcAuth.UnaryServerInterceptor(middleware.AuthInterceptor),
-	)))
+	m.grpc = grpc.NewServer(
+		grpc.UnaryInterceptor(grpcMiddleware.ChainUnaryServer(
+			grpcCtxTags.UnaryServerInterceptor(),
+			grpcOpentracing.UnaryServerInterceptor(),
+			grpcZap.UnaryServerInterceptor(logx.NameSpace("grpc").Desugar()),
+			grpcRecovery.UnaryServerInterceptor(),
+			grpcAuth.UnaryServerInterceptor(middleware.AuthInterceptor),
+		)), grpc.StatsHandler(otelgrpc.NewServerHandler()))
 	reflection.Register(m.grpc)
 	hub.Log.Info("init gRPC server success...")
 	hub.Map(m.grpc)
@@ -70,6 +72,7 @@ func (m *Mod) PostInit(h *kernel.Hub) error {
 		//grpc.WithTimeout(10 * time.Second),
 		//grpc.WithBlock(),
 		grpc.WithTransportCredentials(insecure.NewCredentials()),
+		grpc.WithStatsHandler(otelgrpc.NewClientHandler()),
 	}
 	conn, err := grpc.NewClient(fmt.Sprintf("127.0.0.1:%s", conf.Get().Port), opts...)
 	if err != nil {
@@ -110,6 +113,7 @@ func (m *Mod) PostInit(h *kernel.Hub) error {
 }
 
 func (m *Mod) Load(h *kernel.Hub) error {
+	h.Log.Infow("grpcGateway service Loaded successfully")
 	fmt.Println(colorful.Green("grpcGateway service Loaded successfully"))
 	return nil
 }

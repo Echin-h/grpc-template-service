@@ -3,7 +3,11 @@ package service
 import (
 	"context"
 	helloV1 "github.com/Echin-h/grpc-template-proto/gen/proto/hello/v1"
+	"go.opentelemetry.io/otel"
+	"go.opentelemetry.io/otel/attribute"
+	"go.opentelemetry.io/otel/trace"
 	"go.uber.org/zap"
+	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/status"
 	"grpc-template-service/internal/mod/hello/dao"
 	model2 "grpc-template-service/internal/mod/hello/model"
@@ -17,11 +21,21 @@ type S struct {
 var _ helloV1.GreeterServiceServer = (*S)(nil)
 
 func (s *S) SayHello(ctx context.Context, in *helloV1.SayHelloRequest) (*helloV1.SayHelloResponse, error) {
+	md, _ := metadata.FromIncomingContext(ctx)
+	_, span := otel.Tracer("grpc-template-service").
+		Start(ctx, "SayHello",
+			trace.WithAttributes(
+				attribute.String("name", in.GetName()),
+				attribute.StringSlice("client-id", md.Get("client-id")),
+				attribute.StringSlice("user-id", md.Get("user-id")),
+			),
+		)
+	defer span.End()
 	s.Log.Info("SayHello==========================================================")
 	var model = model2.Hello{
-		ID:        4,
+		ID:        9,
 		Name:      in.Name,
-		Age:       22,
+		Age:       77,
 		Email:     "xx5xx",
 		Telephone: "1299999",
 	}

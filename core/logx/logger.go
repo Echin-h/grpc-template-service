@@ -47,6 +47,5 @@ func Init(level zapcore.LevelEnabler) {
 	//if CLSConfig := conf.Get().Log.CLS; CLSConfig.Endpoint != "" {
 	//
 	//}
-
 	zap.ReplaceGlobals(logger)
 }
