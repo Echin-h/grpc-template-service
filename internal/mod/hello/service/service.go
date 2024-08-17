@@ -4,6 +4,9 @@ import (
 	"context"
 	helloV1 "github.com/Echin-h/grpc-template-proto/gen/proto/hello/v1"
 	"go.uber.org/zap"
+	"google.golang.org/grpc/status"
+	"grpc-template-service/internal/mod/hello/dao"
+	model2 "grpc-template-service/internal/mod/hello/model"
 )
 
 type S struct {
@@ -13,7 +16,19 @@ type S struct {
 
 var _ helloV1.GreeterServiceServer = (*S)(nil)
 
-func (s *S) SayHello(_ context.Context, in *helloV1.SayHelloRequest) (*helloV1.SayHelloResponse, error) {
+func (s *S) SayHello(ctx context.Context, in *helloV1.SayHelloRequest) (*helloV1.SayHelloResponse, error) {
+	s.Log.Info("SayHello==========================================================")
+	var model = model2.Hello{
+		ID:        4,
+		Name:      in.Name,
+		Age:       22,
+		Email:     "xx5xx",
+		Telephone: "1299999",
+	}
+	tx := dao.Get().WithContext(ctx).Create(&model)
+	if tx.Error != nil {
+		return nil, status.Error(500, tx.Error.Error())
+	}
 	return &helloV1.SayHelloResponse{Message: in.Name + " world"}, nil
 }
 

@@ -9,15 +9,17 @@ import (
 	"go.opentelemetry.io/otel/propagation"
 	semconv "go.opentelemetry.io/otel/semconv/v1.26.0"
 	oteltrace "go.opentelemetry.io/otel/trace"
+	"grpc-template-service/core/kernel"
 	"io"
 	"strings"
 )
 
 const (
-	TracerKey = "otel-tracer"
+	TracerKey   = "otel-tracer"
+	TraceCtxKey = "X-Tracer-ID"
 )
 
-func Trace() gin.HandlerFunc {
+func Trace(hub *kernel.Hub) gin.HandlerFunc {
 	return func(c *gin.Context) {
 		tracer := otel.GetTracerProvider().Tracer("gin-rush-template")
 		spanName := c.Request.Method + " " + c.Request.URL.Path
@@ -46,7 +48,9 @@ func Trace() gin.HandlerFunc {
 		}
 
 		traceID := span.SpanContext().TraceID().String()
-		c.Writer.Header().Set("X-Trace-ID", traceID)
+		c.Writer.Header().Set(TraceCtxKey, traceID)
+		//hub.Log = hub.Log.With(zap.String(TraceCtxKey, traceID))
+		//hub.Log.Info("-------------------------------------------")
 		defer span.End()
 
 		var body []byte
@@ -63,5 +67,7 @@ func Trace() gin.HandlerFunc {
 
 		c.Request = c.Request.WithContext(ctx)
 		c.Next()
+		status := c.Writer.Status()
+		span.SetAttributes(attribute.Int("http.status_code", status))
 	}
 }

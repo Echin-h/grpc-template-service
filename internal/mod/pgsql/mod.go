@@ -3,6 +3,7 @@ package pgsql
 import (
 	"errors"
 	"fmt"
+	"github.com/uptrace/opentelemetry-go-extra/otelgorm"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 	"grpc-template-service/conf"
@@ -35,6 +36,10 @@ func (m *Mod) Init(hub *kernel.Hub) error {
 	var db *gorm.DB
 	if hub.Load(&db) != nil {
 		return errors.New("can't load gorm from kernel")
+	}
+	err := db.Use(otelgorm.NewPlugin())
+	if err != nil {
+		return err
 	}
 
 	var tables []string

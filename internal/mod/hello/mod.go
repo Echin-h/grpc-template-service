@@ -5,8 +5,10 @@ import (
 	"fmt"
 	helloV1 "github.com/Echin-h/grpc-template-proto/gen/proto/hello/v1"
 	"google.golang.org/grpc"
+	"gorm.io/gorm"
 	"grpc-template-service/core/kernel"
 	"grpc-template-service/internal/mod/grpcGateway/gateway"
+	"grpc-template-service/internal/mod/hello/dao"
 	"grpc-template-service/internal/mod/hello/service"
 	"grpc-template-service/pkg/colorful"
 )
@@ -27,6 +29,13 @@ func (m *Mod) Load(hub *kernel.Hub) error {
 	var GRPC grpc.Server
 	if hub.Load(&GRPC) != nil {
 		return errors.New("can't load gRPC server from kernel")
+	}
+	var db *gorm.DB
+	if hub.Load(&db) != nil {
+		return errors.New("can't load gorm from kernel")
+	}
+	if err := dao.Init(db); err != nil {
+		return err
 	}
 
 	helloV1.RegisterGreeterServiceServer(&GRPC, &service.S{

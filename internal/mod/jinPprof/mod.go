@@ -3,8 +3,10 @@ package jinPprof
 import (
 	"encoding/base64"
 	"errors"
+	"fmt"
 	"github.com/gin-gonic/gin"
 	"grpc-template-service/core/kernel"
+	"grpc-template-service/pkg/colorful"
 	"net/http"
 	"net/http/pprof"
 )
@@ -63,5 +65,6 @@ func (m *Mod) Load(hub *kernel.Hub) error {
 	pprofGroup.GET("/mutex", func(c *gin.Context) { pprof.Handler("mutex").ServeHTTP(c.Writer, c.Request) })
 	pprofGroup.GET("/threadcreate", func(c *gin.Context) { pprof.Handler("threadcreate").ServeHTTP(c.Writer, c.Request) })
 
+	fmt.Println(colorful.Green("jinPprof service Loaded successfully"))
 	return nil
 }
