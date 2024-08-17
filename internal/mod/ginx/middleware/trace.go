@@ -9,7 +9,6 @@ import (
 	"go.opentelemetry.io/otel/propagation"
 	semconv "go.opentelemetry.io/otel/semconv/v1.26.0"
 	oteltrace "go.opentelemetry.io/otel/trace"
-	"grpc-template-service/core/kernel"
 	"io"
 	"strings"
 )
@@ -19,7 +18,7 @@ const (
 	TraceCtxKey = "X-Tracer-ID"
 )
 
-func Trace(hub *kernel.Hub) gin.HandlerFunc {
+func Trace() gin.HandlerFunc {
 	return func(c *gin.Context) {
 		tracer := otel.GetTracerProvider().Tracer("gin-rush-template")
 		spanName := c.Request.Method + " " + c.Request.URL.Path
